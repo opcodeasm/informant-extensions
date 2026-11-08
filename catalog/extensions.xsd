@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:c="urn:inform7:extension-catalog:1"
+           targetNamespace="urn:inform7:extension-catalog:1" elementFormDefault="qualified">
+  <xs:simpleType name="status">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="internal"/>
+      <xs:enumeration value="external"/>
+      <xs:enumeration value="version-mismatch"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="digest">
+    <xs:restriction base="xs:string"><xs:pattern value="[0-9a-f]{64}"/></xs:restriction>
+  </xs:simpleType>
+  <xs:attributeGroup name="reference">
+    <xs:attribute name="title" type="xs:string" use="required"/>
+    <xs:attribute name="author" type="xs:string" use="required"/>
+    <xs:attribute name="requested-version" type="xs:string"/>
+    <xs:attribute name="min-version" type="xs:string"/>
+    <xs:attribute name="max-version-exclusive" type="xs:string"/>
+    <xs:attribute name="status" type="c:status" use="required"/>
+    <xs:attribute name="targets" type="xs:IDREFS"/>
+  </xs:attributeGroup>
+  <xs:element name="catalog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="extension" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="download">
+                <xs:complexType>
+                  <xs:attribute name="url" type="xs:anyURI" use="required"/>
+                  <xs:attribute name="filename" type="xs:string" use="required"/>
+                  <xs:attribute name="bytes" type="xs:nonNegativeInteger" use="required"/>
+                  <xs:attribute name="sha256" type="c:digest" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="dependencies">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="dependency" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="condition" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:attributeGroup ref="c:reference"/>
+                              <xs:attribute name="present" type="xs:boolean" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="c:reference"/>
+                        <xs:attribute name="kind" use="required">
+                          <xs:simpleType><xs:restriction base="xs:string">
+                            <xs:enumeration value="include"/><xs:enumeration value="integration"/>
+                          </xs:restriction></xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="line" type="xs:positiveInteger" use="required"/>
+                        <xs:attribute name="when">
+                          <xs:simpleType><xs:restriction base="xs:string">
+                            <xs:enumeration value="with"/><xs:enumeration value="without"/>
+                          </xs:restriction></xs:simpleType>
+                        </xs:attribute>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="warning" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType><xs:simpleContent><xs:extension base="xs:string">
+                  <xs:attribute name="line" type="xs:positiveInteger" use="required"/>
+                </xs:extension></xs:simpleContent></xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+            <xs:attribute name="title" type="xs:string" use="required"/>
+            <xs:attribute name="author" type="xs:string" use="required"/>
+            <xs:attribute name="version" type="xs:string"/>
+            <xs:attribute name="qualifiers" type="xs:string"/>
+            <xs:attribute name="path" type="xs:string" use="required"/>
+            <xs:attribute name="folder" type="xs:string" use="required"/>
+            <xs:attribute name="encoding" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="schema-version" type="xs:positiveInteger" use="required" fixed="1"/>
+      <xs:attribute name="repository" type="xs:anyURI" use="required"/>
+      <xs:attribute name="ref" type="xs:string" use="required"/>
+      <xs:attribute name="url" type="xs:anyURI" use="required"/>
+      <xs:attribute name="language-version" type="xs:string" use="required" fixed="10.1"/>
+      <xs:attribute name="version-policy" type="xs:string" use="required" fixed="inform-10-compatible"/>
+      <xs:attribute name="generator" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

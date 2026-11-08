@@ -1,0 +1,1198 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalog xmlns="urn:inform7:extension-catalog:1" schema-version="1" repository="https://github.com/interactivefiction/inform7extensions" ref="10.1" url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/catalog/extensions.xml" language-version="10.1" version-policy="inform-10-compatible" generator="tools/generate_catalog.py">
+  <extension id="ext-8a33461c98bb9ce24c928be0" title="Hybrid Choices" author="AW Freyr" path="AW Freyr/Hybrid Choices-v7.i7x" folder="AW Freyr" encoding="utf-8" version="7.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/AW%20Freyr/Hybrid%20Choices-v7.i7x" filename="Hybrid Choices-v7.i7x" bytes="66623" sha256="9b70569f531bc9c6041edd1404a850f16a9d7f8959e843922cbd5febb216c729" />
+    <dependencies>
+      <dependency title="Flexible Windows" author="Jon Ingold" kind="integration" line="510" when="with" status="internal" targets="ext-ed88d7effeaef304f9d8608f" />
+      <dependency title="Flexible Windows" author="Jon Ingold" kind="integration" line="531" when="without" status="internal" targets="ext-ed88d7effeaef304f9d8608f" />
+    </dependencies>
+  </extension>
+  <extension id="ext-09e780f3bdacd0a5f104f77f" title="Commonly Unimplemented" author="Aaron Reed" path="Aaron Reed/Commonly Unimplemented-v2.i7x" folder="Aaron Reed" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Aaron%20Reed/Commonly%20Unimplemented-v2.i7x" filename="Commonly Unimplemented-v2.i7x" bytes="9572" sha256="e76fed73bae9b4eece89f8596b991525a3f27eb00d928a4697fa3ab6aa083993" />
+    <dependencies>
+      <dependency title="Smarter Parser" author="Aaron Reed" kind="include" line="9" requested-version="16" min-version="16.0.0" max-version-exclusive="17.0.0" status="internal" targets="ext-4e818abd0922eea9bb96847e" />
+    </dependencies>
+  </extension>
+  <extension id="ext-cd16806e1e6cf9d6df45aae9" title="Dynamic Rooms" author="Aaron Reed" path="Aaron Reed/Dynamic Rooms-v3.i7x" folder="Aaron Reed" encoding="utf-8" version="3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Aaron%20Reed/Dynamic%20Rooms-v3.i7x" filename="Dynamic Rooms-v3.i7x" bytes="18853" sha256="0efd0ac36b869afda91a30e8a18df6b8da28e4ab15381cc62dc73874b72c9d95" />
+    <dependencies />
+  </extension>
+  <extension id="ext-e0ba31d4d6b70511f8c956e9" title="Extended Grammar" author="Aaron Reed" path="Aaron Reed/Extended Grammar-v8.i7x" folder="Aaron Reed" encoding="utf-8" version="8.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Aaron%20Reed/Extended%20Grammar-v8.i7x" filename="Extended Grammar-v8.i7x" bytes="5531" sha256="7d7b16e1467b7d9d961389b9e6ff3364f591af5c0fc5f6e32122eee257cb1d85" />
+    <dependencies />
+  </extension>
+  <extension id="ext-8e6443b2357d33690c49a6b6" title="Keyword Interface" author="Aaron Reed" path="Aaron Reed/Keyword Interface-v9.i7x" folder="Aaron Reed" encoding="utf-8" version="9.0.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Aaron%20Reed/Keyword%20Interface-v9.i7x" filename="Keyword Interface-v9.i7x" bytes="39469" sha256="36d22bd79b1a9cec4c91c5f5d7089bf027260746a8081983aea7ecf7b8eaa897" />
+    <dependencies>
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="26" status="external" />
+      <dependency title="Neutral Library Messages" author="Aaron Reed" kind="integration" line="123" when="without" status="external" />
+      <dependency title="Player Experience Upgrade" author="Aaron Reed" kind="integration" line="125" when="without" status="external" />
+      <dependency title="Glulx Text Effects" author="Emily Short" kind="include" line="166" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-6f7a642e7bb944d494302428" title="Numbered Disambiguation Choices" author="Aaron Reed" path="Aaron Reed/Numbered Disambiguation Choices-v10.i7x" folder="Aaron Reed" encoding="utf-8" version="10.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Aaron%20Reed/Numbered%20Disambiguation%20Choices-v10.i7x" filename="Numbered Disambiguation Choices-v10.i7x" bytes="9224" sha256="a8211431b774662bcc9151cbfd82bf5d69c3ce75d358bdc4c0b7fb72cafd4e43" />
+    <dependencies />
+  </extension>
+  <extension id="ext-0b42b63aa36041271000c41c" title="Poor Man's Mistype" author="Aaron Reed" path="Aaron Reed/Poor Man's Mistype-v8.i7x" folder="Aaron Reed" encoding="utf-8" version="8">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Aaron%20Reed/Poor%20Man%27s%20Mistype-v8.i7x" filename="Poor Man's Mistype-v8.i7x" bytes="5988" sha256="d6e1009c255331776a50cd39b04c4ab8e4ff5c38367d617a22a00668b57d2dad" />
+    <dependencies>
+      <dependency title="Smarter Parser" author="Aaron Reed" kind="include" line="20" requested-version="16" min-version="16.0.0" max-version-exclusive="17.0.0" status="internal" targets="ext-4e818abd0922eea9bb96847e" />
+      <dependency title="Scope Caching" author="Mike Ciul" kind="integration" line="63" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-d5846bb85228ab82cac3494c" title="Response Assistant" author="Aaron Reed" path="Aaron Reed/Response Assistant-v1.i7x" folder="Aaron Reed" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Aaron%20Reed/Response%20Assistant-v1.i7x" filename="Response Assistant-v1.i7x" bytes="3964" sha256="8c59d04dffcf0958cebb5986c5390c8bd5a3d2e26492d7d5e98aa1fac3aa80de" />
+    <dependencies />
+  </extension>
+  <extension id="ext-834122ddb48044043239f8d5" title="Small Kindnesses" author="Aaron Reed" path="Aaron Reed/Small Kindnesses-v13.i7x" folder="Aaron Reed" encoding="utf-8" version="13.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Aaron%20Reed/Small%20Kindnesses-v13.i7x" filename="Small Kindnesses-v13.i7x" bytes="14446" sha256="3934a85af4541c6d916e2fba884daa9ce0d6d892babf891ee699110f55da331f" />
+    <dependencies>
+      <dependency title="Keyword Interface" author="Aaron Reed" kind="integration" line="21" when="without" status="internal" targets="ext-8e6443b2357d33690c49a6b6" />
+      <dependency title="Modified Exit" author="Emily Short" kind="integration" line="62" when="with" status="internal" targets="ext-63a1875d83d1a43d9f92a097" />
+      <dependency title="Modified Exit" author="Emily Short" kind="integration" line="66" when="without" status="internal" targets="ext-63a1875d83d1a43d9f92a097" />
+      <dependency title="Modified Exit" author="Emily Short" kind="integration" line="70" when="without" status="internal" targets="ext-63a1875d83d1a43d9f92a097" />
+      <dependency title="Approaches" author="Emily Short" kind="integration" line="94" when="without" status="internal" targets="ext-005e49c0010b5ebc599f6634" />
+      <dependency title="Approaches" author="Emily Short" kind="integration" line="109" when="with" status="internal" targets="ext-005e49c0010b5ebc599f6634" />
+      <dependency title="Keyword Interface" author="Aaron Reed" kind="integration" line="155" when="without" status="internal" targets="ext-8e6443b2357d33690c49a6b6" />
+    </dependencies>
+  </extension>
+  <extension id="ext-4e818abd0922eea9bb96847e" title="Smarter Parser" author="Aaron Reed" path="Aaron Reed/Smarter Parser-v16.i7x" folder="Aaron Reed" encoding="utf-8" version="16.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Aaron%20Reed/Smarter%20Parser-v16.i7x" filename="Smarter Parser-v16.i7x" bytes="92548" sha256="0e06c6431a7d4781366696ea276bbe126ff3e4c5c93a46e06b4b837f85b53565" />
+    <dependencies>
+      <dependency title="Keyword Interface" author="Aaron Reed" kind="integration" line="37" when="without" status="internal" targets="ext-8e6443b2357d33690c49a6b6" />
+      <dependency title="Keyword Interface" author="Aaron Reed" kind="integration" line="815" when="without" status="internal" targets="ext-8e6443b2357d33690c49a6b6" />
+    </dependencies>
+  </extension>
+  <extension id="ext-4685997d75e6e4a4ff4cace8" title="Common Commands Sidebar" author="Alice Grove" path="Alice Grove/Common Commands Sidebar-v2.i7x" folder="Alice Grove" encoding="utf-8" version="2.1" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Alice%20Grove/Common%20Commands%20Sidebar-v2.i7x" filename="Common Commands Sidebar-v2.i7x" bytes="70175" sha256="f1b6d94cb0c190301b22f7526cb84d173a5de30347f7d7ddc1a2aa14d470be0c" />
+    <dependencies>
+      <dependency title="Flexible Windows" author="Jon Ingold" kind="include" line="8" status="internal" targets="ext-ed88d7effeaef304f9d8608f" />
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="9" status="external" />
+      <dependency title="Menus" author="Dannii Willis" kind="integration" line="156" when="with" status="internal" targets="ext-fb305c48b71ba4babef6a145" />
+      <dependency title="Menus" author="Emily Short" kind="integration" line="165" when="with" status="external" />
+      <dependency title="Menus" author="Wade Clarke" kind="integration" line="174" when="with" status="internal" targets="ext-6e9ea418778cdb08e129639d" />
+    </dependencies>
+  </extension>
+  <extension id="ext-2c3db1bc912b4e7a846894fd" title="Simple Spelling" author="Alice Grove" path="Alice Grove/Simple Spelling-v2.i7x" folder="Alice Grove" encoding="utf-8" version="2.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Alice%20Grove/Simple%20Spelling-v2.i7x" filename="Simple Spelling-v2.i7x" bytes="8677" sha256="f51ee8561f896dbe92c15675c44a99e43d3a16edbbd7be80958198ec691b743e" />
+    <dependencies>
+      <dependency title="Common Commands Sidebar" author="Alice Grove" kind="integration" line="113" when="with" status="internal" targets="ext-4685997d75e6e4a4ff4cace8" />
+    </dependencies>
+  </extension>
+  <extension id="ext-0d7e440b1dbcd11993c8c966" title="Secret Doors" author="Andrew Owen" path="Andrew Owen/Secret Doors-v1.i7x" folder="Andrew Owen" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Andrew%20Owen/Secret%20Doors-v1.i7x" filename="Secret Doors-v1.i7x" bytes="3536" sha256="eeddc10310934c0f2bfc87496a399e5a1558294fa4bdc8e65160df7074a3b98f" />
+    <dependencies />
+  </extension>
+  <extension id="ext-ce7d650836b9cb753a092c32" title="Disappearing Doors" author="Andrew Plotkin" path="Andrew Plotkin/Disappearing Doors-v1.i7x" folder="Andrew Plotkin" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Andrew%20Plotkin/Disappearing%20Doors-v1.i7x" filename="Disappearing Doors-v1.i7x" bytes="5320" sha256="e9d8af2916912742557212fd4ddb7260811afda22acde1e65bff668ac3fcd019" />
+    <dependencies />
+  </extension>
+  <extension id="ext-e24ec84552225203f5a143f1" title="Optimized Epistemology" author="Andrew Plotkin" path="Andrew Plotkin/Optimized Epistemology-v1.i7x" folder="Andrew Plotkin" encoding="utf-8" version="1.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Andrew%20Plotkin/Optimized%20Epistemology-v1.i7x" filename="Optimized Epistemology-v1.i7x" bytes="11641" sha256="7d31861846f589d313b12aa4f4863e9ce87462a1e43135505dc5e26e4201633a" />
+    <dependencies>
+      <dependency title="Threaded Conversation" author="Emily Short" kind="integration" line="41" when="without" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-6723888f3ef719762f0f58ca" title="Serial And Fix" author="Andrew Plotkin" path="Andrew Plotkin/Serial And Fix-v1.i7x" folder="Andrew Plotkin" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Andrew%20Plotkin/Serial%20And%20Fix-v1.i7x" filename="Serial And Fix-v1.i7x" bytes="719" sha256="d4e17ba5f4c71dde4f9bca1ac74d0150db0e943450bb55a7746a8679121b9e5f" />
+    <dependencies />
+  </extension>
+  <extension id="ext-3b1a6fc117a0180992edb7df" title="In-Line Topical Hints" author="Andrew Schultz" path="Andrew Schultz/In-Line Topical Hints-v2.i7x" folder="Andrew Schultz" encoding="utf-8" version="2.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Andrew%20Schultz/In-Line%20Topical%20Hints-v2.i7x" filename="In-Line Topical Hints-v2.i7x" bytes="58204" sha256="4de561f9ea42b2a76874c0aaf643599e6e1355bae3122bbf15004e1eeedd975a" />
+    <dependencies>
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="5" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-abe2f6e57739cc5468722bd1" title="Basic Literacy" author="Bart Massey" path="Bart Massey/Basic Literacy-v2.i7x" folder="Bart Massey" encoding="utf-8" version="2.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Bart%20Massey/Basic%20Literacy-v2.i7x" filename="Basic Literacy-v2.i7x" bytes="9995" sha256="82ecd932b3d4b37b49b4a4eba6eca33a9e477eecc0e9e855ad60dfa0bb063b91" />
+    <dependencies />
+  </extension>
+  <extension id="ext-31bc70fc6e6036700609f21f" title="Scopability" author="Brady Garvin" path="Brady Garvin/Scopability-v2.i7x" folder="Brady Garvin" encoding="utf-8" version="2.0.220524">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Brady%20Garvin/Scopability-v2.i7x" filename="Scopability-v2.i7x" bytes="3958" sha256="c805fe83df5ddbfc237e952b50b6390dc286f59d09699e931bc29b57d4dddbb8" />
+    <dependencies />
+  </extension>
+  <extension id="ext-d5ed6e06fcc5dead3e33b5ae" title="Excess Word Stripping" author="Brent Worthington" path="Brent Worthington/Excess Word Stripping-v2.i7x" folder="Brent Worthington" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Brent%20Worthington/Excess%20Word%20Stripping-v2.i7x" filename="Excess Word Stripping-v2.i7x" bytes="4161" sha256="e2cabf16be92da76ca43aa7c3bce28b174f6781ca28d236621fb36be6704f1a1" />
+    <dependencies />
+  </extension>
+  <extension id="ext-97c27d20554cde1e3fb590ad" title="Push Pull Turn" author="Brent Worthington" path="Brent Worthington/Push Pull Turn-v2.i7x" folder="Brent Worthington" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Brent%20Worthington/Push%20Pull%20Turn-v2.i7x" filename="Push Pull Turn-v2.i7x" bytes="6049" sha256="c2cf1f4cfb978e61057f5987244d2abcb1eac2cc5c3d70767ba8700280507dc2" />
+    <dependencies />
+  </extension>
+  <extension id="ext-54e58f4d8f4b13b7e4ec1320" title="Screen Reset" author="Brent Worthington" path="Brent Worthington/Screen Reset-v2.i7x" folder="Brent Worthington" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Brent%20Worthington/Screen%20Reset-v2.i7x" filename="Screen Reset-v2.i7x" bytes="1945" sha256="ee2b6e74f5e8819b7d16ff3e00ba43f900214ed15704398a7b4dcf2f918449ec" />
+    <dependencies>
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="5" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-22cf6d33e79dc8863d6b7c7b" title="Clues and Conversation" author="Brian Rushton" path="Brian Rushton/Clues and Conversation-v5.i7x" folder="Brian Rushton" encoding="utf-8" version="5">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Brian%20Rushton/Clues%20and%20Conversation-v5.i7x" filename="Clues and Conversation-v5.i7x" bytes="36500" sha256="17c41b8aff1f90f4745203f2f16b1c04d5164da1df095aed4fe251e966c20ecd" />
+    <dependencies />
+  </extension>
+  <extension id="ext-6b3f2cde3a48001059561628" title="Threaded Conversation" author="Chris Conley" path="Chris Conley/Threaded Conversation-v9.i7x" folder="Chris Conley" encoding="utf-8" version="9.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Chris%20Conley/Threaded%20Conversation-v9.i7x" filename="Threaded Conversation-v9.i7x" bytes="141457" sha256="991246b8ceaf698ad2b8d14b69c881caf988dd28e15d18536246fd57e95560f1" />
+    <dependencies>
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="7" status="external" />
+      <dependency title="Complex Listing" author="Emily Short" kind="include" line="8" status="external" />
+      <dependency title="Conversation Framework" author="Eric Eve" kind="include" line="9" requested-version="12" min-version="12.0.0" max-version-exclusive="13.0.0" status="internal" targets="ext-0be017c52d127176ed4f58f6" />
+    </dependencies>
+  </extension>
+  <extension id="ext-479faa1b98105a32b9cf5edc" title="Configurable Creative Commons License" author="Creative Commons" path="Creative Commons/Configurable Creative Commons License-v1.i7x" folder="Creative Commons" encoding="utf-8" version="1.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Creative%20Commons/Configurable%20Creative%20Commons%20License-v1.i7x" filename="Configurable Creative Commons License-v1.i7x" bytes="104814" sha256="dab91897760077a952abf0459350761a93b925c47f9f4e7128a4094724397c7b" />
+    <dependencies>
+      <dependency title="Unicode Full Character Names" author="Graham Nelson" kind="integration" line="100" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-01d93e23aa9e91939ab175fc" title="Full Screen Title Card" author="Dan Fabulich" path="Dan Fabulich/Full Screen Title Card-v1.i7x" folder="Dan Fabulich" encoding="utf-8" version="1.0" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Dan%20Fabulich/Full%20Screen%20Title%20Card-v1.i7x" filename="Full Screen Title Card-v1.i7x" bytes="27699" sha256="d1fac0ed562f77b2477315cea08824a35a5b8ce460afd319e29b202550ff6b38" />
+    <dependencies />
+  </extension>
+  <extension id="ext-8dba857a06b9dbbf8c31be86" title="Autosave" author="Daniel Stelzer" path="Daniel Stelzer/Autosave-v2.i7x" folder="Daniel Stelzer" encoding="utf-8" version="2.0.231013" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Autosave-v2.i7x" filename="Autosave-v2.i7x" bytes="5258" sha256="8040dc31c5e40c31f8d9e28d7ed108e3292c271cfba238cbf8343dbaf3e2b0dd" />
+    <dependencies />
+  </extension>
+  <extension id="ext-6c3eef0bd356706088e2b6c5" title="Before Processing a Command" author="Daniel Stelzer" path="Daniel Stelzer/Before Processing a Command-v2.i7x" folder="Daniel Stelzer" encoding="utf-8" version="2.0.20250424">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Before%20Processing%20a%20Command-v2.i7x" filename="Before Processing a Command-v2.i7x" bytes="39617" sha256="4c159893b319f79708e9743fa939dd32544650fb0639a8e88530f4d4dc42a5cc" />
+    <dependencies />
+  </extension>
+  <extension id="ext-8ec6e225891194ecf5dbdced" title="Boolean Variables" author="Daniel Stelzer" path="Daniel Stelzer/Boolean Variables-v1.i7x" folder="Daniel Stelzer" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Boolean%20Variables-v1.i7x" filename="Boolean Variables-v1.i7x" bytes="1655" sha256="5d941e1e7c7948ad4b0a8edc280ce733bbff2fe31aa9562cb8f4078465dec804" />
+    <dependencies />
+  </extension>
+  <extension id="ext-91be8ba6e9acbd84f7b32b64" title="Cleared Events" author="Daniel Stelzer" path="Daniel Stelzer/Cleared Events-v1.i7x" folder="Daniel Stelzer" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Cleared%20Events-v1.i7x" filename="Cleared Events-v1.i7x" bytes="960" sha256="71238d2de977298d986c4f51ad94f5840ff09d13642a266e1720b958542ac4d7" />
+    <dependencies />
+  </extension>
+  <extension id="ext-cb6daded5bdd0315b031c626" title="Command Modification" author="Daniel Stelzer" path="Daniel Stelzer/Command Modification-v1.i7x" folder="Daniel Stelzer" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Command%20Modification-v1.i7x" filename="Command Modification-v1.i7x" bytes="4701" sha256="d4e49c0f97d69572f2ab524edd15dc31b5e06e87ca480a0cfc2fc554de8357bd" />
+    <dependencies>
+      <dependency title="Typographical Conveniences" author="Daniel Stelzer" kind="include" line="3" status="internal" targets="ext-3c972ee7ce27234fae551a0e" />
+    </dependencies>
+  </extension>
+  <extension id="ext-c4177e1999e018e06711ddb8" title="Command Preloading" author="Daniel Stelzer" path="Daniel Stelzer/Command Preloading-v1.i7x" folder="Daniel Stelzer" encoding="utf-8" version="1.0.20230916" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Command%20Preloading-v1.i7x" filename="Command Preloading-v1.i7x" bytes="3123" sha256="00d6cbdc3fcc280bc2009f055607830134ae094a3931ac3711addd8f1ea7ab89" />
+    <dependencies />
+  </extension>
+  <extension id="ext-72d09b6ec5f855636ba381d3" title="Debugging" author="Daniel Stelzer" path="Daniel Stelzer/Debugging-v1.i7x" folder="Daniel Stelzer" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Debugging-v1.i7x" filename="Debugging-v1.i7x" bytes="237" sha256="1109ee6d09a23146340cb12cbca0bbac7fb4de50c4be2ddeae903ee38e0dc1cc" />
+    <dependencies>
+      <dependency title="Boolean Variables" author="Daniel Stelzer" kind="include" line="3" status="internal" targets="ext-8ec6e225891194ecf5dbdced" />
+    </dependencies>
+  </extension>
+  <extension id="ext-07497153a4a2e64e716aa9e2" title="Default Styles" author="Daniel Stelzer" path="Daniel Stelzer/Default Styles-v1.i7x" folder="Daniel Stelzer" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Default%20Styles-v1.i7x" filename="Default Styles-v1.i7x" bytes="2861" sha256="df90c6950d1c91584629918fce58593a4c58e0cd69918327e0349b82a42b4912" />
+    <dependencies>
+      <dependency title="Glulx Text Styles" author="Daniel Stelzer" kind="include" line="5" status="internal" targets="ext-2386703429a220fd65f0f0b7" />
+    </dependencies>
+  </extension>
+  <extension id="ext-2386703429a220fd65f0f0b7" title="Glulx Text Styles" author="Daniel Stelzer" path="Daniel Stelzer/Glulx Text Styles-v1.i7x" folder="Daniel Stelzer" encoding="utf-8" version="1" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Glulx%20Text%20Styles-v1.i7x" filename="Glulx Text Styles-v1.i7x" bytes="10444" sha256="44d7fc5b337efe94807564f03c12a329afdae836ab88c9be5f2a2eecb371f5a6" />
+    <dependencies />
+  </extension>
+  <extension id="ext-5b6123bee39d02bc00291746" title="Helpful Functions" author="Daniel Stelzer" path="Daniel Stelzer/Helpful Functions-v1.i7x" folder="Daniel Stelzer" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Helpful%20Functions-v1.i7x" filename="Helpful Functions-v1.i7x" bytes="4379" sha256="2d4fbd7432fce9080aa9b6ebf954bb71b0b49d3ccd0d71d4c0124c720ae32a18" />
+    <dependencies>
+      <dependency title="Facing" author="Emily Short" kind="integration" line="15" when="without" status="internal" targets="ext-10b7fbc3da68bea0bc42881d" />
+      <dependency title="Glulx Text Styles" author="Daniel Stelzer" kind="integration" line="77" when="without" status="internal" targets="ext-2386703429a220fd65f0f0b7" />
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="83" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-dcc98ce8b3a61b946c91555c" title="Modified Timekeeping" author="Daniel Stelzer" path="Daniel Stelzer/Modified Timekeeping-v1.i7x" folder="Daniel Stelzer" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Modified%20Timekeeping-v1.i7x" filename="Modified Timekeeping-v1.i7x" bytes="2634" sha256="f3e6a4bb43450cd40e1f2be6ec5ed945633588e4eae283b12d5169436b0d718e" />
+    <dependencies>
+      <dependency title="Implicit Actions" author="Eric Eve" kind="integration" line="41" when="with" status="internal" targets="ext-ddc943f8dd83ab1ef8f1c1a7" />
+    </dependencies>
+  </extension>
+  <extension id="ext-173e3cd2f29134fbd81d5bb2" title="Output Silencing" author="Daniel Stelzer" path="Daniel Stelzer/Output Silencing-v1.i7x" folder="Daniel Stelzer" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Output%20Silencing-v1.i7x" filename="Output Silencing-v1.i7x" bytes="1028" sha256="9257fb775fa47aaaf4ed732ba8416773081c8bbe90f1fe9b66c7cba5ac3c8819" />
+    <dependencies />
+  </extension>
+  <extension id="ext-cecce97649d831438adb1a50" title="Subcommands" author="Daniel Stelzer" path="Daniel Stelzer/Subcommands-v2.i7x" folder="Daniel Stelzer" encoding="utf-8" version="2.0.221104">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Subcommands-v2.i7x" filename="Subcommands-v2.i7x" bytes="21035" sha256="da6797519f1d0ab12605ed1b9b5573d871cc7edbe8043fe01b9c46f81bb1defc" />
+    <dependencies />
+  </extension>
+  <extension id="ext-8d5aa06a2e3a4a49de34e56c" title="Third Noun" author="Daniel Stelzer" path="Daniel Stelzer/Third Noun-v1.i7x" folder="Daniel Stelzer" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Third%20Noun-v1.i7x" filename="Third Noun-v1.i7x" bytes="518" sha256="8c9a49a35893224b02b23f93fd08f1974307668778a98553ec88e03632e08e5c" />
+    <dependencies />
+  </extension>
+  <extension id="ext-3c972ee7ce27234fae551a0e" title="Typographical Conveniences" author="Daniel Stelzer" path="Daniel Stelzer/Typographical Conveniences-v1.i7x" folder="Daniel Stelzer" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Daniel%20Stelzer/Typographical%20Conveniences-v1.i7x" filename="Typographical Conveniences-v1.i7x" bytes="2509" sha256="0bdc12a9ab81d930624c30c4d6f17bc65b3dbdcab0ce14e307a3dae85b3c91b1" />
+    <dependencies>
+      <dependency title="Unicode Interrogation" author="Michael Martin" kind="include" line="3" status="internal" targets="ext-7496d7a71ec4b9032e6deeec" />
+      <dependency title="Glulx Text Styles" author="Daniel Stelzer" kind="include" line="43" status="internal" targets="ext-2386703429a220fd65f0f0b7" />
+      <dependency title="Default Styles" author="Daniel Stelzer" kind="integration" line="45" when="with" status="internal" targets="ext-07497153a4a2e64e716aa9e2" />
+    </dependencies>
+  </extension>
+  <extension id="ext-cef0ac42bc9abb34a702390b" title="Alternative Startup Rules" author="Dannii Willis" path="Dannii Willis/Alternative Startup Rules-v1.i7x" folder="Dannii Willis" encoding="utf-8" version="1.1" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Dannii%20Willis/Alternative%20Startup%20Rules-v1.i7x" filename="Alternative Startup Rules-v1.i7x" bytes="6131" sha256="fcf8547c7ebcc891d2b0a56ce0b93d75814ae0a4040a05bf94ce7475755fee67" />
+    <dependencies />
+  </extension>
+  <extension id="ext-3ec176752b3d285d5d9e95ff" title="Collections" author="Dannii Willis" path="Dannii Willis/Collections-v1.i7x" folder="Dannii Willis" encoding="utf-8" version="1.3" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Dannii%20Willis/Collections-v1.i7x" filename="Collections-v1.i7x" bytes="18473" sha256="05d46ee266635ec955ce267b79ee93c0c3ce08b2bf87162e239c62e8ad18ba10" />
+    <dependencies />
+  </extension>
+  <extension id="ext-12b8b55b7219567c55b239df" title="Glk Text Formatting" author="Dannii Willis" path="Dannii Willis/Glk Text Formatting-v1.i7x" folder="Dannii Willis" encoding="utf-8" version="1.2" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Dannii%20Willis/Glk%20Text%20Formatting-v1.i7x" filename="Glk Text Formatting-v1.i7x" bytes="5779" sha256="1772aa6538917ae704ae8cd49fd08382a19ab9803b68e7944634161d48739f08" />
+    <dependencies />
+  </extension>
+  <extension id="ext-de66368acb27dde678a45fe6" title="Glulx Definitions" author="Dannii Willis" path="Dannii Willis/Glulx Definitions-v1.i7x" folder="Dannii Willis" encoding="utf-8" version="1.2" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Dannii%20Willis/Glulx%20Definitions-v1.i7x" filename="Glulx Definitions-v1.i7x" bytes="7233" sha256="f8c029a66c3e1d78d4c53bd640f8594262b37a5d7688040917146dbaf58fbb43" />
+    <dependencies />
+  </extension>
+  <extension id="ext-3a5b6baa96561e425feafbdd" title="Highscores" author="Dannii Willis" path="Dannii Willis/Highscores-v1.i7x" folder="Dannii Willis" encoding="utf-8" version="1.2" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Dannii%20Willis/Highscores-v1.i7x" filename="Highscores-v1.i7x" bytes="8662" sha256="f5e3156539e32436cdeba99589ca32ea0b2b1464b9f1d94bf49ea4fc94435fc7" />
+    <dependencies />
+  </extension>
+  <extension id="ext-fb305c48b71ba4babef6a145" title="Menus" author="Dannii Willis" path="Dannii Willis/Menus-v1.i7x" folder="Dannii Willis" encoding="utf-8" version="1.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Dannii%20Willis/Menus-v1.i7x" filename="Menus-v1.i7x" bytes="21298" sha256="4e9910433988468cd4811130e15675384d6fcbc70e24b0d288ae929dd6a5f888" />
+    <dependencies>
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="9" status="external" />
+      <dependency title="Flexible Windows" author="Jon Ingold" kind="integration" line="270" when="with" status="internal" targets="ext-ed88d7effeaef304f9d8608f" />
+      <dependency title="Flexible Windows" author="Jon Ingold" kind="integration" line="289" when="with" status="internal" targets="ext-ed88d7effeaef304f9d8608f" />
+      <dependency title="Glulx Entry Points" author="Emily Short" kind="integration" line="304" when="with" status="internal" targets="ext-9c4c561f51de84967337259a" />
+    </dependencies>
+  </extension>
+  <extension id="ext-5b8484da122261ab6a9e8cb5" title="Snippetage" author="Dave Robinson" path="Dave Robinson/Snippetage-v2.i7x" folder="Dave Robinson" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Dave%20Robinson/Snippetage-v2.i7x" filename="Snippetage-v2.i7x" bytes="7388" sha256="21f701d00e1adf6bf773b3ff4621a28acc371643e2d6ab763060a656f38d7a2a" />
+    <dependencies />
+  </extension>
+  <extension id="ext-28a5bc9f889696bc03ca38fa" title="Dice" author="David A Wheeler" path="David A Wheeler/Dice-v1.i7x" folder="David A Wheeler" encoding="utf-8" version="1.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/David%20A%20Wheeler/Dice-v1.i7x" filename="Dice-v1.i7x" bytes="3128" sha256="a907b066251617672d1c23b9ec21501b54a0df923df9ce3736b688460b13b0d0" />
+    <dependencies />
+  </extension>
+  <extension id="ext-ae11339ed1fa3fd3cec763c2" title="Basic Help" author="David Cornelson" path="David Cornelson/Basic Help-v1.i7x" folder="David Cornelson" encoding="utf-8" version="1.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/David%20Cornelson/Basic%20Help-v1.i7x" filename="Basic Help-v1.i7x" bytes="9796" sha256="a8e83c7d3536eab191103acf7ac0910fff9bc81cd1986e857ef75dff80ef5585" />
+    <dependencies />
+  </extension>
+  <extension id="ext-4b52ecba6fd90a2c01f7dd5c" title="Mini-Map" author="Drew Cook" path="Drew Cook/Mini-Map-v1.i7x" folder="Drew Cook" encoding="utf-8" version="1.0.0">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Drew%20Cook/Mini-Map-v1.i7x" filename="Mini-Map-v1.i7x" bytes="57353" sha256="8dbcdea6d4dabfb8097063f2d8f2847c0e0e6aad5d25ba48deab9dead7a78e56" />
+    <dependencies>
+      <dependency title="basic screen effects" author="emily short" kind="include" line="9" status="external" />
+      <dependency title="simple multimedia effects for v10" author="mathbrush" kind="include" line="10" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-979015ba93ab8fbc7772c379" title="Story Mode" author="Drew Cook" path="Drew Cook/Story Mode-v2.i7x" folder="Drew Cook" encoding="utf-8" version="2.2.0">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Drew%20Cook/Story%20Mode-v2.i7x" filename="Story Mode-v2.i7x" bytes="35884" sha256="55c1d5ecde707ea779706d65deca2b0c4c9dfaa96b3cc1e12e25d8fe7b4f36d7" />
+    <dependencies>
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="55" status="external" />
+      <dependency title="Undo Output Control" author="Nathanael Nerode" kind="include" line="56" status="internal" targets="ext-9d6346d942045f63754284d2" />
+      <dependency title="Command Preloading" author="Daniel Stelzer" kind="include" line="57" status="internal" targets="ext-c4177e1999e018e06711ddb8" />
+      <dependency title="Autosave" author="Daniel Stelzer" kind="include" line="58" status="internal" targets="ext-8dba857a06b9dbbf8c31be86" />
+    </dependencies>
+  </extension>
+  <extension id="ext-005e49c0010b5ebc599f6634" title="Approaches" author="Emily Short" path="Emily Short/Approaches-v8.i7x" folder="Emily Short" encoding="utf-8" version="8">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Approaches-v8.i7x" filename="Approaches-v8.i7x" bytes="24134" sha256="e71445b82dcaaf3ba0d1e6d5e2932d319a157aee85198286aa39d401596c9dc7" />
+    <dependencies />
+  </extension>
+  <extension id="ext-7aca6cbbf3a9a7f661ff0b75" title="Assorted Text Generation" author="Emily Short" path="Emily Short/Assorted Text Generation-v5.i7x" folder="Emily Short" encoding="utf-8" version="5">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Assorted%20Text%20Generation-v5.i7x" filename="Assorted Text Generation-v5.i7x" bytes="18575" sha256="4188372f6ec3fd4a75dadb43c9825ad5b668bac6431ce841647b987dfdb62199" />
+    <dependencies />
+  </extension>
+  <extension id="ext-66f63739d0d8c31c2a3ae984" title="Automated Drawers" author="Emily Short" path="Emily Short/Automated Drawers-v6.i7x" folder="Emily Short" encoding="utf-8" version="6">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Automated%20Drawers-v6.i7x" filename="Automated Drawers-v6.i7x" bytes="14934" sha256="2bfdeb78fe7f839c7486e73079ed4ef468f186b7ec00701a4205e2d7d7b83319" />
+    <dependencies>
+      <dependency title="Assorted Text Generation" author="Emily Short" kind="include" line="9" status="internal" targets="ext-7aca6cbbf3a9a7f661ff0b75" />
+      <dependency title="Complex Listing" author="Emily Short" kind="include" line="52" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-9930bd44738d958c1f27ca8e" title="Basic Hyperlinks" author="Emily Short" path="Emily Short/Basic Hyperlinks-v3.i7x" folder="Emily Short" encoding="utf-8" version="3.1" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Basic%20Hyperlinks-v3.i7x" filename="Basic Hyperlinks-v3.i7x" bytes="4689" sha256="fb5c5e1affec871a2eacba804efed5b2bbaf59058c4c16e2bee69f8ce401b577" />
+    <dependencies>
+      <dependency title="Glulx Entry Points" author="Emily Short" kind="include" line="5" status="internal" targets="ext-9c4c561f51de84967337259a" />
+    </dependencies>
+  </extension>
+  <extension id="ext-3420721092935e0531318084" title="Computers" author="Emily Short" path="Emily Short/Computers-v8.i7x" folder="Emily Short" encoding="utf-8" version="8.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Computers-v8.i7x" filename="Computers-v8.i7x" bytes="57443" sha256="493fab5e00624895594e0064cd83a38c83ebda1ec6d0f1f2549e1422ccdfd8ce" />
+    <dependencies>
+      <dependency title="Power Sources" author="Emily Short" kind="integration" line="139" when="with" status="internal" targets="ext-d9691766c1f2d671511cc290" />
+    </dependencies>
+  </extension>
+  <extension id="ext-8859d01052d33e3a7cfc5cf7" title="Deluxe Doors" author="Emily Short" path="Emily Short/Deluxe Doors-v4.i7x" folder="Emily Short" encoding="utf-8" version="4">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Deluxe%20Doors-v4.i7x" filename="Deluxe Doors-v4.i7x" bytes="11967" sha256="0bf88b1facf75ddbceb4a4125b532140d8aea9f6037210abdc3424b2c0b455b5" />
+    <dependencies>
+      <dependency title="Locksmith" author="Emily Short" kind="include" line="7" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-a500d63714ad2a96ba977043" title="Dishes" author="Emily Short" path="Emily Short/Dishes-v2.i7x" folder="Emily Short" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Dishes-v2.i7x" filename="Dishes-v2.i7x" bytes="10232" sha256="2e9a59882d1bfe787076bf31145e0c67474886780b4223888c90a92fa65dfdce" />
+    <dependencies>
+      <dependency title="Measured Liquid" author="Emily Short" kind="include" line="5" status="internal" targets="ext-9facfd51da54fa4821303cab" />
+      <dependency title="Metric Units" author="Graham Nelson" kind="integration" line="29" when="without" status="external" />
+      <dependency title="Metric Units" author="Graham Nelson" kind="integration" line="36" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-10b7fbc3da68bea0bc42881d" title="Facing" author="Emily Short" path="Emily Short/Facing-v11.i7x" folder="Emily Short" encoding="utf-8" version="11.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Facing-v11.i7x" filename="Facing-v11.i7x" bytes="11337" sha256="0f45ed156ae877576290b90845cb893ef5a2cf334ce6c42874b981a3edd79b91" />
+    <dependencies>
+      <dependency title="Locksmith" author="Emily Short" kind="integration" line="105" when="without" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-9c4c561f51de84967337259a" title="Glulx Entry Points" author="Emily Short" path="Emily Short/Glulx Entry Points-v10.i7x" folder="Emily Short" encoding="utf-8" version="10.1.0" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Glulx%20Entry%20Points-v10.i7x" filename="Glulx Entry Points-v10.i7x" bytes="29424" sha256="46657140b1afa604513828a8f152c74a4c62050ab2e081e72bb0c27cb02bb541" />
+    <dependencies />
+  </extension>
+  <extension id="ext-15e53b46daa3bcb24c7b5d54" title="Introductions" author="Emily Short" path="Emily Short/Introductions-v2.i7x" folder="Emily Short" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Introductions-v2.i7x" filename="Introductions-v2.i7x" bytes="17808" sha256="0ae454f3638f3ba216ed76fff70ffdc455f65a693a8dbe2f9ab65380be92525e" />
+    <dependencies />
+  </extension>
+  <extension id="ext-c6465fd69695682c5d555466" title="Location Images" author="Emily Short" path="Emily Short/Location Images-v1.i7x" folder="Emily Short" encoding="utf-8" version="1.1" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Location%20Images-v1.i7x" filename="Location Images-v1.i7x" bytes="1659" sha256="10dab45d2ed37d98b1b135c8df9e10fb78ed81946b4c3e50a66e1e82ae8dabc4" />
+    <dependencies>
+      <dependency title="Simple Graphical Window" author="Emily Short" kind="include" line="5" status="internal" targets="ext-250781540c06275b6c6c7a77" />
+    </dependencies>
+  </extension>
+  <extension id="ext-9facfd51da54fa4821303cab" title="Measured Liquid" author="Emily Short" path="Emily Short/Measured Liquid-v6.i7x" folder="Emily Short" encoding="utf-8" version="6.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Measured%20Liquid-v6.i7x" filename="Measured Liquid-v6.i7x" bytes="69119" sha256="efd90192dc8091e37af2406631422d44396594500e23cae8e1f2a534ef48d79d" />
+    <dependencies>
+      <dependency title="Considerate Holdall" author="Jon Ingold" kind="integration" line="46" when="with" status="external" />
+      <dependency title="Metric Units" author="Graham Nelson" kind="integration" line="53" when="without" status="external" />
+      <dependency title="Metric Units" author="Graham Nelson" kind="integration" line="65" when="without" status="external" />
+      <dependency title="Metric Units" author="Graham Nelson" kind="integration" line="75" when="with" status="external" />
+      <dependency title="Assorted Text Generation" author="Emily Short" kind="integration" line="345" when="with" status="internal" targets="ext-7aca6cbbf3a9a7f661ff0b75" />
+      <dependency title="Assorted Text Generation" author="Emily Short" kind="integration" line="360" when="without" status="internal" targets="ext-7aca6cbbf3a9a7f661ff0b75" />
+    </dependencies>
+  </extension>
+  <extension id="ext-38d7f6a5a0af7b916409b56f" title="Modern Conveniences" author="Emily Short" path="Emily Short/Modern Conveniences-v5.i7x" folder="Emily Short" encoding="utf-8" version="5">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Modern%20Conveniences-v5.i7x" filename="Modern Conveniences-v5.i7x" bytes="17239" sha256="3a9100067d7a23608aa4d0330d5a35293ce0b71b979686b2c15641a314035f8a" />
+    <dependencies>
+      <dependency title="Automated Drawers" author="Emily Short" kind="integration" line="95" when="with" status="internal" targets="ext-66f63739d0d8c31c2a3ae984" />
+      <dependency title="Dishes" author="Emily Short" kind="integration" line="99" when="with" status="internal" targets="ext-a500d63714ad2a96ba977043" />
+      <dependency title="Measured Liquid" author="Emily Short" kind="integration" line="173" when="with" status="internal" targets="ext-9facfd51da54fa4821303cab" />
+      <dependency title="Tailored Room Description" author="Emily Short" kind="integration" line="232" when="with" status="internal" targets="ext-dba53ea7960d467e4491ff75" />
+    </dependencies>
+  </extension>
+  <extension id="ext-63a1875d83d1a43d9f92a097" title="Modified Exit" author="Emily Short" path="Emily Short/Modified Exit-v6.i7x" folder="Emily Short" encoding="utf-8" version="6">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Modified%20Exit-v6.i7x" filename="Modified Exit-v6.i7x" bytes="10022" sha256="af4d3aa5b9ce72b836e9f659497d34768b0744e836cd40b0ce66e60146677aa0" />
+    <dependencies>
+      <dependency title="Rideable Vehicles" author="Graham Nelson" kind="integration" line="37" when="without" status="external" />
+      <dependency title="Rideable Vehicles" author="Graham Nelson" kind="integration" line="45" when="with" status="external" />
+      <dependency title="Postures" author="Emily Short" kind="integration" line="73" when="without" status="internal" targets="ext-cecb91599521823500845c09" />
+      <dependency title="Postures" author="Emily Short" kind="integration" line="92" when="with" status="internal" targets="ext-cecb91599521823500845c09" />
+    </dependencies>
+  </extension>
+  <extension id="ext-cb6b34500fd2b18758b5ab64" title="Mood Variations" author="Emily Short" path="Emily Short/Mood Variations-v3.i7x" folder="Emily Short" encoding="utf-8" version="3.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Mood%20Variations-v3.i7x" filename="Mood Variations-v3.i7x" bytes="7254" sha256="b89cd0d04484ee4c91e21ec663d0b7a402ba1c9c2cec32eb1ea4fd54c67a4c92" />
+    <dependencies />
+  </extension>
+  <extension id="ext-b9b5f2fc17a4b03b1ef19fa8" title="Ordinary Room Description" author="Emily Short" path="Emily Short/Ordinary Room Description-v4.i7x" folder="Emily Short" encoding="utf-8" version="4.0.220524">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Ordinary%20Room%20Description-v4.i7x" filename="Ordinary Room Description-v4.i7x" bytes="5896" sha256="7b86bb24a3ee0ebf5871636a1acbc8f8a64d48d0b3f78890ae10cdb0b893b55e" />
+    <dependencies>
+      <dependency title="Room Description Control" author="Emily Short" kind="include" line="5" status="internal" targets="ext-d93c8cc36c0c2cb1da605fcf" />
+    </dependencies>
+  </extension>
+  <extension id="ext-cecb91599521823500845c09" title="Postures" author="Emily Short" path="Emily Short/Postures-v2.i7x" folder="Emily Short" encoding="utf-8" version="2.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Postures-v2.i7x" filename="Postures-v2.i7x" bytes="15958" sha256="1aed1277d7cf23e8d53a2a0d6df9e9b2dfd7dd62e79d01b22736ee80d8440098" />
+    <dependencies />
+  </extension>
+  <extension id="ext-d9691766c1f2d671511cc290" title="Power Sources" author="Emily Short" path="Emily Short/Power Sources-v2.i7x" folder="Emily Short" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Power%20Sources-v2.i7x" filename="Power Sources-v2.i7x" bytes="24700" sha256="6e08a44e6fccc694331387ad857eb6b24ad42edc3be2f31b4103038f970224bb" />
+    <dependencies>
+      <dependency title="Plugs and Sockets" author="Sean Turner" kind="include" line="9" status="internal" targets="ext-4fb9a5353747a87320e01471" />
+    </dependencies>
+  </extension>
+  <extension id="ext-446b611dd2842a4af27f4f0c" title="Property Checking" author="Emily Short" path="Emily Short/Property Checking-v4.i7x" folder="Emily Short" encoding="utf-8" version="4">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Property%20Checking-v4.i7x" filename="Property Checking-v4.i7x" bytes="2451" sha256="d4a73344dbc61b16165a04f4cd26dc18fbc64cd7e4b05d39dfd1bdd98f7d13fa" />
+    <dependencies />
+  </extension>
+  <extension id="ext-4225a19e3c4f6c8183dd7815" title="Recorded Endings" author="Emily Short" path="Emily Short/Recorded Endings-v5.i7x" folder="Emily Short" encoding="utf-8" version="5" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Recorded%20Endings-v5.i7x" filename="Recorded Endings-v5.i7x" bytes="5579" sha256="be56cfaa5b7982f88d8f2e5fcbbec1994e32d9a3dca5ba44924fd4b084a7089e" />
+    <dependencies />
+  </extension>
+  <extension id="ext-d93c8cc36c0c2cb1da605fcf" title="Room Description Control" author="Emily Short" path="Emily Short/Room Description Control-v14.i7x" folder="Emily Short" encoding="utf-8" version="14.1.220524">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Room%20Description%20Control-v14.i7x" filename="Room Description Control-v14.i7x" bytes="15332" sha256="05a567b000f3dad6989f7831684cf3c18e0ce3961dc1fe3417ca7c9f42423b6b" />
+    <dependencies />
+  </extension>
+  <extension id="ext-e78b7533af193aad012c36ec" title="Simple Followers" author="Emily Short" path="Emily Short/Simple Followers-v7.i7x" folder="Emily Short" encoding="utf-8" version="7">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Simple%20Followers-v7.i7x" filename="Simple Followers-v7.i7x" bytes="7106" sha256="f9711e80d765ea189e0465d77a780ea301c28b8dd9ff95290ed502fe726bc40e" />
+    <dependencies />
+  </extension>
+  <extension id="ext-250781540c06275b6c6c7a77" title="Simple Graphical Window" author="Emily Short" path="Emily Short/Simple Graphical Window-v10.i7x" folder="Emily Short" encoding="utf-8" version="10.1" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Simple%20Graphical%20Window-v10.i7x" filename="Simple Graphical Window-v10.i7x" bytes="9329" sha256="8c5ded823deb6286baa9be828808ec63e9c87e456ce87af40839982ed3ec64eb" />
+    <dependencies>
+      <dependency title="Flexible Windows" author="Jon Ingold" kind="include" line="10" status="internal" targets="ext-ed88d7effeaef304f9d8608f" />
+    </dependencies>
+  </extension>
+  <extension id="ext-e43dac0e97e39260ae6f0beb" title="Single Paragraph Description" author="Emily Short" path="Emily Short/Single Paragraph Description-v7.i7x" folder="Emily Short" encoding="utf-8" version="7.0.220525">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Single%20Paragraph%20Description-v7.i7x" filename="Single Paragraph Description-v7.i7x" bytes="7297" sha256="08923d2c1a28ccfbbce7386205a423513fb2cffa938892e1b7354c9d251aa3e2" />
+    <dependencies>
+      <dependency title="Room Description Control" author="Emily Short" kind="include" line="5" status="internal" targets="ext-d93c8cc36c0c2cb1da605fcf" />
+    </dependencies>
+  </extension>
+  <extension id="ext-dba53ea7960d467e4491ff75" title="Tailored Room Description" author="Emily Short" path="Emily Short/Tailored Room Description-v13.i7x" folder="Emily Short" encoding="utf-8" version="13.2.220524">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Tailored%20Room%20Description-v13.i7x" filename="Tailored Room Description-v13.i7x" bytes="33940" sha256="3b792ab126f54e6a7fe3ba713eb78a9019c1bf5a5a7af5b42f68909022390674" />
+    <dependencies>
+      <dependency title="Room Description Control" author="Emily Short" kind="include" line="5" status="internal" targets="ext-d93c8cc36c0c2cb1da605fcf" />
+    </dependencies>
+  </extension>
+  <extension id="ext-2a216b951939fc5ccc70a87b" title="Transit System" author="Emily Short" path="Emily Short/Transit System-v6.i7x" folder="Emily Short" encoding="utf-8" version="6">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Transit%20System-v6.i7x" filename="Transit System-v6.i7x" bytes="13068" sha256="fbd6a309a5f6338dd50852fdb742c3ad3294fc146c61a8a10a42718b5b829e29" />
+    <dependencies />
+  </extension>
+  <extension id="ext-fd6d3f8ae29a06109271d819" title="Tutorial Mode" author="Emily Short" path="Emily Short/Tutorial Mode-v5.i7x" folder="Emily Short" encoding="utf-8" version="5">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Emily%20Short/Tutorial%20Mode-v5.i7x" filename="Tutorial Mode-v5.i7x" bytes="13528" sha256="10dd8fbc9aebf7c1defedda7f6f883a3b5ad5c4211d72849c059a80389b6d39e" />
+    <dependencies />
+  </extension>
+  <extension id="ext-c9f75806df5cd39e55559605" title="Adaptive Hints" author="Eric Eve" path="Eric Eve/Adaptive Hints-v7.i7x" folder="Eric Eve" encoding="utf-8" version="7">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Adaptive%20Hints-v7.i7x" filename="Adaptive Hints-v7.i7x" bytes="19959" sha256="c1b730f5c76dd336529df003936574a849218002ab0ad8b2156896f69ae307bf" />
+    <dependencies>
+      <dependency title="Menus" author="Emily Short" kind="include" line="5" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-d2a2c06c0346b03aed49318b" title="Alternatives" author="Eric Eve" path="Eric Eve/Alternatives-v3.i7x" folder="Eric Eve" encoding="utf-8" version="3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Alternatives-v3.i7x" filename="Alternatives-v3.i7x" bytes="9538" sha256="a76c31a552b91b798c6c7b94f9e2995ec83aaffbad35fc20cffc36c4e5c8b463" />
+    <dependencies />
+  </extension>
+  <extension id="ext-a8cb05e51729d0b139ee7603" title="Bulk Limiter" author="Eric Eve" path="Eric Eve/Bulk Limiter-v9.i7x" folder="Eric Eve" encoding="utf-8" version="9">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Bulk%20Limiter-v9.i7x" filename="Bulk Limiter-v9.i7x" bytes="4340" sha256="cb68f1b849e3bace329f30927104cceb74cb8684fedff59fa22c688616315301" />
+    <dependencies />
+  </extension>
+  <extension id="ext-0be017c52d127176ed4f58f6" title="Conversation Framework" author="Eric Eve" path="Eric Eve/Conversation Framework-v12.i7x" folder="Eric Eve" encoding="utf-8" version="12">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Conversation%20Framework-v12.i7x" filename="Conversation Framework-v12.i7x" bytes="33428" sha256="e9fc192607a3411b05f062f308aaa777ec0081bd2a3ddd1c6ade0c6838124553" />
+    <dependencies>
+      <dependency title="Epistemology" author="Eric Eve" kind="include" line="7" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-b2fd712adcb8b4fad6a56805" title="Conversation Nodes" author="Eric Eve" path="Eric Eve/Conversation Nodes-v7.i7x" folder="Eric Eve" encoding="utf-8" version="7">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Conversation%20Nodes-v7.i7x" filename="Conversation Nodes-v7.i7x" bytes="36046" sha256="72117f655b37cf67d1dfc9581fdeca996c8acbaaf9bc1eed100e52335994ac38" />
+    <dependencies>
+      <dependency title="Conversation Responses" author="Eric Eve" kind="include" line="6" status="internal" targets="ext-297d86e108e26af29b7a7b51" />
+      <dependency title="Conversational Defaults" author="Eric Eve" kind="include" line="7" status="internal" targets="ext-ae7e64980c31991a49e93fd3" />
+    </dependencies>
+  </extension>
+  <extension id="ext-3f5b6306985373693bc6ebf6" title="Conversation Package" author="Eric Eve" path="Eric Eve/Conversation Package-v3.i7x" folder="Eric Eve" encoding="utf-8" version="3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Conversation%20Package-v3.i7x" filename="Conversation Package-v3.i7x" bytes="15724" sha256="5c1e8aca20a04dffdc3f7f6033ffe101b77146cf45087ef0c3ab79943688a4b0" />
+    <dependencies>
+      <dependency title="Conversation Nodes" author="Eric Eve" kind="include" line="6" status="internal" targets="ext-b2fd712adcb8b4fad6a56805" />
+      <dependency title="Conversation Suggestions" author="Eric Eve" kind="include" line="7" status="internal" targets="ext-6643ecfd8fd073ad4a0609ff" />
+    </dependencies>
+  </extension>
+  <extension id="ext-297d86e108e26af29b7a7b51" title="Conversation Responses" author="Eric Eve" path="Eric Eve/Conversation Responses-v7.i7x" folder="Eric Eve" encoding="utf-8" version="7">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Conversation%20Responses-v7.i7x" filename="Conversation Responses-v7.i7x" bytes="11559" sha256="29a49beb54ca6518e14cd901a947b809852bc28f10f882484a8676dfa8c2a1ef" />
+    <dependencies>
+      <dependency title="Conversation Framework" author="Eric Eve" kind="include" line="4" status="internal" targets="ext-0be017c52d127176ed4f58f6" />
+    </dependencies>
+  </extension>
+  <extension id="ext-6643ecfd8fd073ad4a0609ff" title="Conversation Suggestions" author="Eric Eve" path="Eric Eve/Conversation Suggestions-v6.i7x" folder="Eric Eve" encoding="utf-8" version="6.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Conversation%20Suggestions-v6.i7x" filename="Conversation Suggestions-v6.i7x" bytes="21849" sha256="56c6eeff66f90e24c7a2511abf26b23ca9d6362eb315a4a7d1aa0499511404e7" />
+    <dependencies>
+      <dependency title="Conversation Framework" author="Eric Eve" kind="include" line="6" status="internal" targets="ext-0be017c52d127176ed4f58f6" />
+      <dependency title="Complex Listing" author="Emily Short" kind="integration" line="112" when="with" status="external" />
+      <dependency title="Complex Listing" author="Emily Short" kind="integration" line="147" when="without" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-ae7e64980c31991a49e93fd3" title="Conversational Defaults" author="Eric Eve" path="Eric Eve/Conversational Defaults-v3.i7x" folder="Eric Eve" encoding="utf-8" version="3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Conversational%20Defaults-v3.i7x" filename="Conversational Defaults-v3.i7x" bytes="14013" sha256="3d15c385c087eec731d43c8a6e84da682c9f4f7fdc1d4c64fee071e08e2b44b5" />
+    <dependencies>
+      <dependency title="Conversation Framework" author="Eric Eve" kind="include" line="6" status="internal" targets="ext-0be017c52d127176ed4f58f6" />
+    </dependencies>
+  </extension>
+  <extension id="ext-b95f05781dd6971c93a467ef" title="Exit Lister" author="Eric Eve" path="Eric Eve/Exit Lister-v11.i7x" folder="Eric Eve" encoding="utf-8" version="11">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Exit%20Lister-v11.i7x" filename="Exit Lister-v11.i7x" bytes="20599" sha256="67b60497a05feacdd1d7296bacdca640550e124c7ebc87b231a02d3c1053716b" />
+    <dependencies>
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="7" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-408dc40c5ae9346b78545432" title="Hiding Under" author="Eric Eve" path="Eric Eve/Hiding Under-v4.i7x" folder="Eric Eve" encoding="utf-8" version="4">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Hiding%20Under-v4.i7x" filename="Hiding Under-v4.i7x" bytes="19258" sha256="b5bde5680289c67c021be5683e27392acd553ecdda5e0afd9a9d43a348928d98" />
+    <dependencies>
+      <dependency title="Underside" author="Eric Eve" kind="integration" line="19" when="with" status="internal" targets="ext-e0a154a1c3a7bfb9957ef32e" />
+      <dependency title="Underside" author="Eric Eve" kind="integration" line="33" when="without" status="internal" targets="ext-e0a154a1c3a7bfb9957ef32e" />
+      <dependency title="Underside" author="Eric Eve" kind="integration" line="89" when="with" status="internal" targets="ext-e0a154a1c3a7bfb9957ef32e" />
+    </dependencies>
+  </extension>
+  <extension id="ext-ddc943f8dd83ab1ef8f1c1a7" title="Implicit Actions" author="Eric Eve" path="Eric Eve/Implicit Actions-v13.i7x" folder="Eric Eve" encoding="utf-8" version="13.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Implicit%20Actions-v13.i7x" filename="Implicit Actions-v13.i7x" bytes="58429" sha256="6a03397ef8231881f33e016de87f85839a53dae9b491e080ac846aa431ab7359" />
+    <dependencies>
+      <dependency title="Text Capture" author="Eric Eve" kind="include" line="5" requested-version="8.1" min-version="8.1.0" max-version-exclusive="9.0.0" status="internal" targets="ext-4a9f443a0cec6999ca3448e9" />
+      <dependency title="Locksmith" author="Emily Short" kind="integration" line="79" when="without" status="external" />
+      <dependency title="Locksmith" author="Emily Short" kind="integration" line="171" when="without" status="external" />
+      <dependency title="Locksmith" author="Emily Short" kind="integration" line="232" when="without" status="external" />
+      <dependency title="Disambiguation Control" author="Jon Ingold" kind="integration" line="386" when="with" status="external" />
+      <dependency title="Disambiguation Control" author="Jon Ingold" kind="integration" line="435" when="without" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-80289a360b1e826a89639888" title="Limited Implicit Actions" author="Eric Eve" path="Eric Eve/Limited Implicit Actions-v3.i7x" folder="Eric Eve" encoding="utf-8" version="3.0.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Limited%20Implicit%20Actions-v3.i7x" filename="Limited Implicit Actions-v3.i7x" bytes="23565" sha256="dfcdd8979de39d2fe6e67c8551297afd0ecf7f086b87525f60a6acc8654abf12" />
+    <dependencies />
+  </extension>
+  <extension id="ext-cdbec31869923aca363a8118" title="List Control" author="Eric Eve" path="Eric Eve/List Control-v4.i7x" folder="Eric Eve" encoding="utf-8" version="4">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/List%20Control-v4.i7x" filename="List Control-v4.i7x" bytes="11015" sha256="9c2a2124065abf34771e7cd55c5570c81cde42639674ce72f7991d660ccf87c3" />
+    <dependencies />
+  </extension>
+  <extension id="ext-c8336fed2216b56bbd39080c" title="List Controller" author="Eric Eve" path="Eric Eve/List Controller-v4.i7x" folder="Eric Eve" encoding="utf-8" version="4">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/List%20Controller-v4.i7x" filename="List Controller-v4.i7x" bytes="13103" sha256="2b5d2c98541b7007025922f424ba9918768476c7d1bf203b65df54729c34a2bb" />
+    <dependencies />
+  </extension>
+  <extension id="ext-4a9f443a0cec6999ca3448e9" title="Text Capture" author="Eric Eve" path="Eric Eve/Text Capture-v8.i7x" folder="Eric Eve" encoding="utf-8" version="8.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Text%20Capture-v8.i7x" filename="Text Capture-v8.i7x" bytes="8563" sha256="e12315a3381043efe91d756d7ee20e3a65817f77e03e7997b2bd0fa1fb2b37e6" />
+    <dependencies>
+      <dependency title="FyreVM Support" author="TextFyre" kind="integration" line="11" when="without" status="external" />
+      <dependency title="FyreVM Support" author="TextFyre" kind="integration" line="24" when="with" status="external" />
+      <dependency title="FyreVM Support" author="TextFyre" kind="integration" line="121" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-e0a154a1c3a7bfb9957ef32e" title="Underside" author="Eric Eve" path="Eric Eve/Underside-v6.i7x" folder="Eric Eve" encoding="utf-8" version="6.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Underside-v6.i7x" filename="Underside-v6.i7x" bytes="16111" sha256="d593eeffc75cfb1639b77ac45a094098d054746f9b95c11eb4abbf375666c6f3" />
+    <dependencies>
+      <dependency title="Bulk Limiter" author="Eric Eve" kind="include" line="9" requested-version="9" min-version="9.0.0" max-version-exclusive="10.0.0" status="internal" targets="ext-a8cb05e51729d0b139ee7603" />
+      <dependency title="Implicit Actions" author="Eric Eve" kind="integration" line="46" when="with" status="internal" targets="ext-ddc943f8dd83ab1ef8f1c1a7" />
+      <dependency title="Implicit Actions" author="Eric Eve" kind="integration" line="57" when="without" status="internal" targets="ext-ddc943f8dd83ab1ef8f1c1a7" />
+      <dependency title="Hiding Under" author="Eric Eve" kind="integration" line="112" when="without" status="internal" targets="ext-408dc40c5ae9346b78545432" />
+      <dependency title="Hiding Under" author="Eric Eve" kind="integration" line="117" when="with" status="internal" targets="ext-408dc40c5ae9346b78545432" />
+      <dependency title="Hiding Under" author="Eric Eve" kind="integration" line="126" when="without" status="internal" targets="ext-408dc40c5ae9346b78545432" />
+    </dependencies>
+  </extension>
+  <extension id="ext-aec80cabafcb12ada286dacf" title="Variable Time Control" author="Eric Eve" path="Eric Eve/Variable Time Control-v4.i7x" folder="Eric Eve" encoding="utf-8" version="4">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Eric%20Eve/Variable%20Time%20Control-v4.i7x" filename="Variable Time Control-v4.i7x" bytes="8937" sha256="41db527688a992f5fcad726963aed0e32b0f9328995288719429526e753f2f14" />
+    <dependencies />
+  </extension>
+  <extension id="ext-6ba763ab3456d4fe251fe29d" title="Extended Debugging" author="Erik Temple" path="Erik Temple/Extended Debugging-v2.i7x" folder="Erik Temple" encoding="utf-8" version="2.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Erik%20Temple/Extended%20Debugging-v2.i7x" filename="Extended Debugging-v2.i7x" bytes="7532" sha256="638e65ceaddfd1a958fc9f213670bbd5761b73a9f4f5d46ce49b09cabe9012f0" />
+    <dependencies />
+  </extension>
+  <extension id="ext-899e91f337e8f641f9c6934c" title="Brief Room Descriptions" author="Gavin Lambert" path="Gavin Lambert/Brief Room Descriptions-v1.i7x" folder="Gavin Lambert" encoding="utf-8" version="1.3.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Gavin%20Lambert/Brief%20Room%20Descriptions-v1.i7x" filename="Brief Room Descriptions-v1.i7x" bytes="3191" sha256="ff72ba2d181471212750b9ddbbc43b8122b9e2272b98d72a8b8d2510bacd48a8" />
+    <dependencies />
+  </extension>
+  <extension id="ext-e6e02d1ae366645019578828" title="Enterable Underside" author="Gavin Lambert" path="Gavin Lambert/Enterable Underside-v2.i7x" folder="Gavin Lambert" encoding="utf-8" version="2.0.221220">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Gavin%20Lambert/Enterable%20Underside-v2.i7x" filename="Enterable Underside-v2.i7x" bytes="18937" sha256="ec6905baaef3cf53ceba5fc2945827e151d9e72241600d1a2da5fb55465885df" />
+    <dependencies>
+      <dependency title="Underside" author="Eric Eve" kind="include" line="7" status="internal" targets="ext-e0a154a1c3a7bfb9957ef32e" />
+      <dependency title="Prepositional Correctness" author="Gavin Lambert" kind="include" line="8" status="internal" targets="ext-fb5f47ad032f7e3d6c2dea4b" />
+    </dependencies>
+  </extension>
+  <extension id="ext-0c69fabc40c5726f569a9d12" title="Exit Lister" author="Gavin Lambert" path="Gavin Lambert/Exit Lister-v4.i7x" folder="Gavin Lambert" encoding="utf-8" version="4.0.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Gavin%20Lambert/Exit%20Lister-v4.i7x" filename="Exit Lister-v4.i7x" bytes="20420" sha256="732ac79b8945d1667c285f2c04f5f4ab6d36d6c44109f7e730d8cc478dc3a03b" />
+    <dependencies>
+      <dependency title="Secret Doors" author="Andrew Owen" kind="integration" line="106" when="with" status="internal" targets="ext-0d7e440b1dbcd11993c8c966" />
+      <dependency title="Secret Doors" author="Gavin Lambert" kind="integration" line="111" when="with" status="internal" targets="ext-8afc4e9a6ee4a735b3464142" />
+    </dependencies>
+  </extension>
+  <extension id="ext-cf370ba4f27555e320837aaa" title="Extended Banner" author="Gavin Lambert" path="Gavin Lambert/Extended Banner-v5.i7x" folder="Gavin Lambert" encoding="utf-8" version="5.0.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Gavin%20Lambert/Extended%20Banner-v5.i7x" filename="Extended Banner-v5.i7x" bytes="5462" sha256="afb37e692e97aac33716028dae9d26937941d763ad4856fe19741ac0018a2ad9" />
+    <dependencies />
+  </extension>
+  <extension id="ext-98cd36faa2dac5fe5c507bba" title="Glk Input Suspending" author="Gavin Lambert" path="Gavin Lambert/Glk Input Suspending-v1.i7x" folder="Gavin Lambert" encoding="utf-8" version="1.1" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Gavin%20Lambert/Glk%20Input%20Suspending-v1.i7x" filename="Glk Input Suspending-v1.i7x" bytes="11323" sha256="8c90488d3e360f0be2272bd64c8023ba44ca2445e756366cf5bce2d1adb16200" />
+    <dependencies>
+      <dependency title="Glulx Entry Points" author="Emily Short" kind="include" line="5" status="internal" targets="ext-9c4c561f51de84967337259a" />
+      <dependency title="Glulx Entry Points" author="Emily Short" kind="integration" line="95" when="without" status="internal" targets="ext-9c4c561f51de84967337259a" />
+    </dependencies>
+  </extension>
+  <extension id="ext-d97b2d6b71018d7ec887b4d9" title="Hyperlink Extension Registry" author="Gavin Lambert" path="Gavin Lambert/Hyperlink Extension Registry-v1.i7x" folder="Gavin Lambert" encoding="utf-8" version="1.1" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Gavin%20Lambert/Hyperlink%20Extension%20Registry-v1.i7x" filename="Hyperlink Extension Registry-v1.i7x" bytes="11767" sha256="2a2bba28116914f0935d3fd194754e88c1a1da110a1d1d80b7ad3aceaca8cce4" />
+    <dependencies>
+      <dependency title="Hyperlinks" author="Gavin Lambert" kind="include" line="7" status="internal" targets="ext-65bd6f568c249f16c475e259" />
+    </dependencies>
+  </extension>
+  <extension id="ext-65bd6f568c249f16c475e259" title="Hyperlinks" author="Gavin Lambert" path="Gavin Lambert/Hyperlinks-v1.i7x" folder="Gavin Lambert" encoding="utf-8" version="1.1" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Gavin%20Lambert/Hyperlinks-v1.i7x" filename="Hyperlinks-v1.i7x" bytes="13172" sha256="40326521eb4aaf8f92f77a89813126179a21f14e2c7357cdfeaf555311792700" />
+    <dependencies>
+      <dependency title="Glk Input Suspending" author="Gavin Lambert" kind="include" line="5" status="internal" targets="ext-98cd36faa2dac5fe5c507bba" />
+      <dependency title="Flexible Windows" author="Jon Ingold" kind="integration" line="31" when="without" status="internal" targets="ext-ed88d7effeaef304f9d8608f" />
+      <dependency title="Flexible Windows" author="Jon Ingold" kind="integration" line="43" when="with" status="internal" targets="ext-ed88d7effeaef304f9d8608f" />
+    </dependencies>
+  </extension>
+  <extension id="ext-48dda32cb0777984138dccd7" title="Inline Hyperlinks" author="Gavin Lambert" path="Gavin Lambert/Inline Hyperlinks-v2.i7x" folder="Gavin Lambert" encoding="utf-8" version="2.1" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Gavin%20Lambert/Inline%20Hyperlinks-v2.i7x" filename="Inline Hyperlinks-v2.i7x" bytes="36397" sha256="7328819a0f5948f8e2e1066db20f25a91a63ea759cdffbc18589203597df2957" />
+    <dependencies>
+      <dependency title="Hyperlink Extension Registry" author="Gavin Lambert" kind="include" line="5" status="internal" targets="ext-d97b2d6b71018d7ec887b4d9" />
+      <dependency title="Text Capture" author="Eric Eve" kind="include" line="6" status="internal" targets="ext-4a9f443a0cec6999ca3448e9" />
+      <dependency title="Extended Debugging" author="Erik Temple" kind="integration" line="87" when="with" status="internal" targets="ext-6ba763ab3456d4fe251fe29d" />
+    </dependencies>
+  </extension>
+  <extension id="ext-fb5f47ad032f7e3d6c2dea4b" title="Prepositional Correctness" author="Gavin Lambert" path="Gavin Lambert/Prepositional Correctness-v2.i7x" folder="Gavin Lambert" encoding="utf-8" version="2.3.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Gavin%20Lambert/Prepositional%20Correctness-v2.i7x" filename="Prepositional Correctness-v2.i7x" bytes="18437" sha256="19009966b4551ad36ae9ca6d8f2ee66efa91459590fbac3ae820f09a6ae1e09d" />
+    <dependencies>
+      <dependency title="Rideable Vehicles" author="Graham Nelson" kind="integration" line="115" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-1f27b138d7ab0204e200d05a" title="Rideable Vehicles" author="Gavin Lambert" path="Gavin Lambert/Rideable Vehicles-v1.i7x" folder="Gavin Lambert" encoding="utf-8" version="1.3.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Gavin%20Lambert/Rideable%20Vehicles-v1.i7x" filename="Rideable Vehicles-v1.i7x" bytes="1355" sha256="cf78d404a7f67b787b064403a6635d05d39d6f5f2633dcac61a47093e7851ca4" />
+    <dependencies>
+      <dependency title="Rideable Vehicles" author="Graham Nelson" kind="include" line="7" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-8afc4e9a6ee4a735b3464142" title="Secret Doors" author="Gavin Lambert" path="Gavin Lambert/Secret Doors-v2.i7x" folder="Gavin Lambert" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Gavin%20Lambert/Secret%20Doors-v2.i7x" filename="Secret Doors-v2.i7x" bytes="6743" sha256="5c95a0da9f9d82ae60113c1feacdce09d3643f13872709a70ca82f09c1855a5e" />
+    <dependencies />
+  </extension>
+  <extension id="ext-3881ac4cfa81b4253b65200a" title="Title Page" author="Gavin Lambert" path="Gavin Lambert/Title Page-v1.i7x" folder="Gavin Lambert" encoding="utf-8" version="1.0.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Gavin%20Lambert/Title%20Page-v1.i7x" filename="Title Page-v1.i7x" bytes="14835" sha256="b305ce97bc7b35e8e0bce05fb24b6426708444de55caa20ea555d17d2f0affd4" />
+    <dependencies>
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="7" status="external" />
+      <dependency title="Glulx Image Centering" author="Emily Short" kind="include" line="103" status="external" />
+      <dependency title="Flexible Windows" author="Jon Ingold" kind="integration" line="149" when="with" status="internal" targets="ext-ed88d7effeaef304f9d8608f" />
+      <dependency title="Simple Graphical Window" author="Emily Short" kind="integration" line="164" when="with" status="internal" targets="ext-250781540c06275b6c6c7a77" />
+    </dependencies>
+  </extension>
+  <extension id="ext-4a39dee671cb8b38d899997f" title="Easy Doors" author="Hanon Ondricek" path="Hanon Ondricek/Easy Doors-v3.i7x" folder="Hanon Ondricek" encoding="utf-8" version="3.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Hanon%20Ondricek/Easy%20Doors-v3.i7x" filename="Easy Doors-v3.i7x" bytes="28859" sha256="6220257f84af0a6a577e8ff23dfdbc819dee7e6076f27e28f7e2b2ead2f57958" />
+    <dependencies />
+  </extension>
+  <extension id="ext-13e8ef421aab9d0123cc88b6" title="Contextual Descriptions" author="Jeff Nyman" path="Jeff Nyman/Contextual Descriptions-v1.i7x" folder="Jeff Nyman" encoding="utf-8" version="1.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Jeff%20Nyman/Contextual%20Descriptions-v1.i7x" filename="Contextual Descriptions-v1.i7x" bytes="4339" sha256="e7ea8f893c091bd40322e35848cb74606576ea43ec713eaf23e39da336ce45d5" />
+    <dependencies />
+  </extension>
+  <extension id="ext-0bfed93ab73be77f53cd7bfa" title="Description Decay" author="Jeff Nyman" path="Jeff Nyman/Description Decay-v1.i7x" folder="Jeff Nyman" encoding="utf-8" version="1.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Jeff%20Nyman/Description%20Decay-v1.i7x" filename="Description Decay-v1.i7x" bytes="11942" sha256="0a0dae037fea97730e5cff1911066134421eaf6fa78bc8097b362cfd6c078640" />
+    <dependencies />
+  </extension>
+  <extension id="ext-115f36a6c5d82f02870851b9" title="Nuanced Timekeeping" author="Jeff Nyman" path="Jeff Nyman/Nuanced Timekeeping-v1.i7x" folder="Jeff Nyman" encoding="utf-8" version="1.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Jeff%20Nyman/Nuanced%20Timekeeping-v1.i7x" filename="Nuanced Timekeeping-v1.i7x" bytes="1454" sha256="e30f02572195a1aba8cd1a148201a35042c794456154031dc1f121ad63e05808" />
+    <dependencies />
+  </extension>
+  <extension id="ext-ba7dc808534a25f0dfe5d0f1" title="Relative Placement and Direction" author="Jeff Nyman" path="Jeff Nyman/Relative Placement and Direction-v1.i7x" folder="Jeff Nyman" encoding="utf-8" version="1.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Jeff%20Nyman/Relative%20Placement%20and%20Direction-v1.i7x" filename="Relative Placement and Direction-v1.i7x" bytes="14502" sha256="d421c97fde46f355d9c861996979e1e11f0d1179905b8d0d809ca13e9a133b05" />
+    <dependencies>
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="7" status="external" />
+      <dependency title="Unicode Character Names" author="Graham Nelson" kind="include" line="8" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-362d19d3c9d646ba55494701" title="World Knowledge" author="Jeff Nyman" path="Jeff Nyman/World Knowledge-v1.i7x" folder="Jeff Nyman" encoding="utf-8" version="1.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Jeff%20Nyman/World%20Knowledge-v1.i7x" filename="World Knowledge-v1.i7x" bytes="12019" sha256="414dd96f00b4a088c29e5832c816e6c5b9111ff6f5b226bacb7a3c5ca0ba58db" />
+    <dependencies>
+      <dependency title="Epistemology" author="Eric Eve" kind="integration" line="7" when="without" status="external" />
+      <dependency title="Epistemology" author="Eric Eve" kind="integration" line="23" when="without" status="external" />
+      <dependency title="Epistemology" author="Eric Eve" kind="integration" line="42" when="without" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-2d6307cf186fd62fa377bf98" title="Notepad" author="Jim Aikin" path="Jim Aikin/Notepad-v3.i7x" folder="Jim Aikin" encoding="utf-8" version="3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Jim%20Aikin/Notepad-v3.i7x" filename="Notepad-v3.i7x" bytes="24718" sha256="c14f103f27508b898ce515d5054460081b19cb40aacb599fe722db772919b8b7" />
+    <dependencies />
+  </extension>
+  <extension id="ext-dc0e36cc328acf0c6f6b4393" title="Scheduled Activities" author="John Clemens" path="John Clemens/Scheduled Activities-v10.i7x" folder="John Clemens" encoding="utf-8" version="10.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/John%20Clemens/Scheduled%20Activities-v10.i7x" filename="Scheduled Activities-v10.i7x" bytes="28864" sha256="17e3aaaa27c3e71ee0fc21c01a1a9d6d5de43165a47609d979da8ae3ea1f9bff" />
+    <dependencies />
+  </extension>
+  <extension id="ext-e2e9c33f9ff0958871bb250c" title="Far away" author="Jon Ingold" path="Jon Ingold/Far Away-v5.i7x" folder="Jon Ingold" encoding="utf-8" version="5.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Jon%20Ingold/Far%20Away-v5.i7x" filename="Far Away-v5.i7x" bytes="13368" sha256="57576bbbf3c54b1066a08bf9c082b8efaec6918c1eeaf7dca13656966d436c16" />
+    <dependencies />
+  </extension>
+  <extension id="ext-ed88d7effeaef304f9d8608f" title="Flexible Windows" author="Jon Ingold" path="Jon Ingold/Flexible Windows-v15.i7x" folder="Jon Ingold" encoding="utf-8" version="15.1.0" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Jon%20Ingold/Flexible%20Windows-v15.i7x" filename="Flexible Windows-v15.i7x" bytes="50879" sha256="8a68374becbe05ea6d9bf247dc38af80978ed54deaca1ada6d1e82f193d7e649" />
+    <dependencies>
+      <dependency title="Alternative Startup Rules" author="Dannii Willis" kind="include" line="19" status="internal" targets="ext-cef0ac42bc9abb34a702390b" />
+      <dependency title="Glulx Entry Points" author="Emily Short" kind="include" line="20" status="internal" targets="ext-9c4c561f51de84967337259a" />
+      <dependency title="Glulx Text Effects" author="Emily Short" kind="include" line="21" status="external" />
+      <dependency title="Interpreter Sniffing" author="Friends of I7" kind="integration" line="25" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-4fa5ca55265dfdd4f6c24de0" title="Achievements" author="Juhana Leinonen" path="Juhana Leinonen/Achievements-v1.i7x" folder="Juhana Leinonen" encoding="utf-8" version="1.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Juhana%20Leinonen/Achievements-v1.i7x" filename="Achievements-v1.i7x" bytes="10629" sha256="d969024c5da5b6b6ecb3811dab2d3d832eda02761247af3300bcaa038bbed6fd" />
+    <dependencies />
+  </extension>
+  <extension id="ext-a03656d9c37e154e6f27a00d" title="Bulky Items" author="Juhana Leinonen" path="Juhana Leinonen/Bulky Items-v3.i7x" folder="Juhana Leinonen" encoding="utf-8" version="3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Juhana%20Leinonen/Bulky%20Items-v3.i7x" filename="Bulky Items-v3.i7x" bytes="8781" sha256="c7b5b9f8c1483c23d7db8a057e4f2eff4884a698da7d580fcfffb5b4ce1cbd4b" />
+    <dependencies />
+  </extension>
+  <extension id="ext-b63450f266906e57e494c436" title="Debug Files" author="Juhana Leinonen" path="Juhana Leinonen/Debug Files-v2.i7x" folder="Juhana Leinonen" encoding="utf-8" version="2" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Juhana%20Leinonen/Debug%20Files-v2.i7x" filename="Debug Files-v2.i7x" bytes="6775" sha256="cb3349dcdbe2dc298849d41518a5b6f938efda0bff8ede38d54bcec5c0d6ad0e" />
+    <dependencies />
+  </extension>
+  <extension id="ext-0dcec96e2b47086d7df176a7" title="Object Response Tests" author="Juhana Leinonen" path="Juhana Leinonen/Object Response Tests-v7.i7x" folder="Juhana Leinonen" encoding="utf-8" version="7">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Juhana%20Leinonen/Object%20Response%20Tests-v7.i7x" filename="Object Response Tests-v7.i7x" bytes="20821" sha256="12026818ec066926b68fa703fcce7c2d8d36fa177fed7586d44fe7d9a4688e4b" />
+    <dependencies />
+  </extension>
+  <extension id="ext-4c94e153433b3769c4d32bf8" title="Regional Travel" author="Juhana Leinonen" path="Juhana Leinonen/Regional Travel-v2.i7x" folder="Juhana Leinonen" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Juhana%20Leinonen/Regional%20Travel-v2.i7x" filename="Regional Travel-v2.i7x" bytes="8959" sha256="a1d77c314c9325d6bb117744b8dbe9386879ef5de90611f1b426d277a5c81cc4" />
+    <dependencies>
+      <dependency title="Epistemology" author="Eric Eve" kind="integration" line="18" when="without" status="external" />
+      <dependency title="Epistemology" author="Eric Eve" kind="integration" line="24" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-ca7a53a49135d500c1e5cbee" title="Reversed Persuasion Correction" author="Juhana Leinonen" path="Juhana Leinonen/Reversed Persuasion Correction-v2.i7x" folder="Juhana Leinonen" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Juhana%20Leinonen/Reversed%20Persuasion%20Correction-v2.i7x" filename="Reversed Persuasion Correction-v2.i7x" bytes="5968" sha256="64fc6c517e609595d0b1b7d92e7bc6a007e65218cf6089c529fb2ce459255b0c" />
+    <dependencies />
+  </extension>
+  <extension id="ext-aed215f240bc973d6dee2976" title="Basic Help Menu IT" author="Leonardo Boselli" path="Leonardo Boselli/Basic Help Menu IT-v2.i7x" folder="Leonardo Boselli" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Basic%20Help%20Menu%20IT-v2.i7x" filename="Basic Help Menu IT-v2.i7x" bytes="13214" sha256="b2242484b503d591b80a310dc5f8397b3679c60bfe9fc7ee2cfc306a14a00a72" />
+    <dependencies>
+      <dependency title="Menus IT" author="Leonardo Boselli" kind="include" line="9" status="internal" targets="ext-b7137433557519a575a27655" />
+      <dependency title="Hyperlink Interface" author="Leonardo Boselli" kind="integration" line="15" when="with" status="external" />
+      <dependency title="Hyperlink Interface" author="Leonardo Boselli" kind="integration" line="20" when="without" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-2047e32addbe8291a94a5ce8" title="Bulky Items IT" author="Leonardo Boselli" path="Leonardo Boselli/Bulky Items IT-v2.i7x" folder="Leonardo Boselli" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Bulky%20Items%20IT-v2.i7x" filename="Bulky Items IT-v2.i7x" bytes="2109" sha256="1f159a622719416e91da60a9333eb4687ad5227c8924874c9a03c021106c1669" />
+    <dependencies />
+  </extension>
+  <extension id="ext-392abdf56ec378c9d09c4531" title="Creative Commons Public License IT" author="Leonardo Boselli" path="Leonardo Boselli/Creative Commons Public License IT-v2.i7x" folder="Leonardo Boselli" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Creative%20Commons%20Public%20License%20IT-v2.i7x" filename="Creative Commons Public License IT-v2.i7x" bytes="5116" sha256="ac49e46f6eab59eb9dda9dbdff72da3277aa7affe2b1d6d4017a04d8e888ce1a" />
+    <dependencies>
+      <dependency title="Hyperlink Interface IT" author="Leonardo Boselli" kind="integration" line="28" when="without" status="external" />
+      <dependency title="Hyperlink Interface IT" author="Leonardo Boselli" kind="integration" line="37" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-b7137433557519a575a27655" title="Menus IT" author="Leonardo Boselli" path="Leonardo Boselli/Menus IT-v3.i7x" folder="Leonardo Boselli" encoding="utf-8" version="3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Menus%20IT-v3.i7x" filename="Menus IT-v3.i7x" bytes="6424" sha256="a77357aedab09441f159cc970c852b15ea9007995db35a1e3c9252b37995c77e" />
+    <dependencies>
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="9" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-780c73bbf78af558c47bb14c" title="MilleUna for Gargoyle" author="Leonardo Boselli" path="Leonardo Boselli/MilleUna for Gargoyle-v1.i7x" folder="Leonardo Boselli" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/MilleUna%20for%20Gargoyle-v1.i7x" filename="MilleUna for Gargoyle-v1.i7x" bytes="816" sha256="345a4186895ce36df46660adb7fd9174ec57d114d8c4b942165c899da4fd43b0" />
+    <dependencies>
+      <dependency title="Multiple Sounds" author="Massimo Stella" kind="include" line="21" status="internal" targets="ext-762b55f060b16bdc2ee161d6" />
+    </dependencies>
+  </extension>
+  <extension id="ext-9ac7a526decf36e19435faa1" title="MilleUna for Quixe with graphics" author="Leonardo Boselli" path="Leonardo Boselli/MilleUna for Quixe with graphics-v1.i7x" folder="Leonardo Boselli" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/MilleUna%20for%20Quixe%20with%20graphics-v1.i7x" filename="MilleUna for Quixe with graphics-v1.i7x" bytes="1811" sha256="1c56d71bfc236eeb5b42a431990997a129f48db450d2eeb712c1dd72220f9ecf" />
+    <dependencies>
+      <dependency title="Multiple Sounds" author="Massimo Stella" kind="include" line="41" status="internal" targets="ext-762b55f060b16bdc2ee161d6" />
+    </dependencies>
+  </extension>
+  <extension id="ext-25fe535bfb85dacf4abf70ae" title="MilleUna for Quixe" author="Leonardo Boselli" path="Leonardo Boselli/MilleUna for Quixe-v1.i7x" folder="Leonardo Boselli" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/MilleUna%20for%20Quixe-v1.i7x" filename="MilleUna for Quixe-v1.i7x" bytes="1429" sha256="1e6cbe972b38fb734d1f8d35154e70c8064644a9362a1f2151261f1e98115833" />
+    <dependencies />
+  </extension>
+  <extension id="ext-05a843dbe59837a77063a977" title="Numbered Disambiguation Choices IT" author="Leonardo Boselli" path="Leonardo Boselli/Numbered Disambiguation Choices IT-v2.i7x" folder="Leonardo Boselli" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Numbered%20Disambiguation%20Choices%20IT-v2.i7x" filename="Numbered Disambiguation Choices IT-v2.i7x" bytes="2483" sha256="a273ecdfd073bddf00cab641946937de24713aefd3e8a954b8b5448907a7a3ff" />
+    <dependencies />
+  </extension>
+  <extension id="ext-743a19e80a6d15d4c643506d" title="Patrollers IT" author="Leonardo Boselli" path="Leonardo Boselli/Patrollers IT-v11.i7x" folder="Leonardo Boselli" encoding="utf-8" version="11">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Patrollers%20IT-v11.i7x" filename="Patrollers IT-v11.i7x" bytes="21789" sha256="0ce482860dc1c248debbf98550c9ca12c64c2846e0187f5c88c26a808561f4e9" />
+    <dependencies />
+  </extension>
+  <extension id="ext-287d9ed8308c5b2253be893b" title="Questions IT" author="Leonardo Boselli" path="Leonardo Boselli/Questions IT-v4.i7x" folder="Leonardo Boselli" encoding="windows-1252" version="4">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Questions%20IT-v4.i7x" filename="Questions IT-v4.i7x" bytes="17331" sha256="328bdfbff86f12b513452bc97cb21346f1c1852859ef1b336234b021ed0d0131" />
+    <dependencies>
+      <dependency title="Fixed Point Maths" author="Michael Callaghan" kind="integration" line="391" when="with" status="external" />
+      <dependency title="Fixed Point Maths" author="Michael Callaghan" kind="integration" line="482" when="without" status="external" />
+      <dependency title="Fixed Point Maths" author="Michael Callaghan" kind="integration" line="497" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-49e05b2cad13edd7e7e21810" title="Release for Gargoyle" author="Leonardo Boselli" path="Leonardo Boselli/Release for Gargoyle-v1.i7x" folder="Leonardo Boselli" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Release%20for%20Gargoyle-v1.i7x" filename="Release for Gargoyle-v1.i7x" bytes="181" sha256="13a4e5ed981e7c2ce9b6dd4cc72966f09b4454cf5414877f914f6623596bfb0b" />
+    <dependencies />
+  </extension>
+  <extension id="ext-2b377164fd1a243a229e9135" title="Release for Quixe" author="Leonardo Boselli" path="Leonardo Boselli/Release for Quixe-v1.i7x" folder="Leonardo Boselli" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Release%20for%20Quixe-v1.i7x" filename="Release for Quixe-v1.i7x" bytes="174" sha256="87171d4e1cdad81fec4c13d68d7b1b3f10c0aafac44155409af7d941aec0b9c8" />
+    <dependencies />
+  </extension>
+  <extension id="ext-fb56b92264f613dd5c8b79b9" title="Scoring IT" author="Leonardo Boselli" path="Leonardo Boselli/Scoring IT-v1.i7x" folder="Leonardo Boselli" encoding="utf-8" version="1.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Scoring%20IT-v1.i7x" filename="Scoring IT-v1.i7x" bytes="459" sha256="b2e37e5aafaacb5a9746cdd5ba45344adc14c1c6aeb32ee384ad1ec523deb922" />
+    <dependencies>
+      <dependency title="Scoring" author="Leonardo Boselli" kind="include" line="5" status="internal" targets="ext-ed3017d7406579e2eb8a053c" />
+    </dependencies>
+  </extension>
+  <extension id="ext-ed3017d7406579e2eb8a053c" title="Scoring" author="Leonardo Boselli" path="Leonardo Boselli/Scoring-v1.i7x" folder="Leonardo Boselli" encoding="utf-8" version="1.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Scoring-v1.i7x" filename="Scoring-v1.i7x" bytes="613" sha256="9f1941b6247507b6aeacb3eabafa16f207c8bfdd131bbb9b454d92ca3f007fa4" />
+    <dependencies />
+  </extension>
+  <extension id="ext-bcc06b1a470bd2e5c8981762" title="Simple Followers IT" author="Leonardo Boselli" path="Leonardo Boselli/Simple Followers IT-v5.i7x" folder="Leonardo Boselli" encoding="utf-8" version="5">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Simple%20Followers%20IT-v5.i7x" filename="Simple Followers IT-v5.i7x" bytes="4305" sha256="027e7eaa4b3780db707a626f218a4b65a6541c00d575a89044d790812768afa4" />
+    <dependencies />
+  </extension>
+  <extension id="ext-c91742caba5dc155fbdb973d" title="Title Page IT" author="Leonardo Boselli" path="Leonardo Boselli/Title Page IT-v2.i7x" folder="Leonardo Boselli" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Title%20Page%20IT-v2.i7x" filename="Title Page IT-v2.i7x" bytes="3250" sha256="0fa0694d7e67a265075a06130003c4a16f009d54be132e3bed3dd315033c4f48" />
+    <dependencies>
+      <dependency title="Menus IT" author="Leonardo Boselli" kind="include" line="9" status="internal" targets="ext-b7137433557519a575a27655" />
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="10" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-fc47a5fe35bad8dcab683b91" title="Written Inventory" author="Leonardo Boselli" path="Leonardo Boselli/Written Inventory-v3.i7x" folder="Leonardo Boselli" encoding="utf-8" version="3.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Leonardo%20Boselli/Written%20Inventory-v3.i7x" filename="Written Inventory-v3.i7x" bytes="3060" sha256="1f1a24abffe7466e6f74800c42e52986384f9bf8a14b52b36aa51ec50d7d6e36" />
+    <dependencies />
+  </extension>
+  <extension id="ext-cfaa49fae92db9ff8966a149" title="Distantly Visible Things" author="Marc Von Der Heiden" path="Marc von der Heiden/Distantly Visible Things-v2.i7x" folder="Marc von der Heiden" encoding="utf-8" version="2.0.220523">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Marc%20von%20der%20Heiden/Distantly%20Visible%20Things-v2.i7x" filename="Distantly Visible Things-v2.i7x" bytes="15748" sha256="38a8513f1a59ac11153b7155a9167c23607828190acc3b667f3535e065960ade" />
+    <dependencies />
+  </extension>
+  <extension id="ext-762b55f060b16bdc2ee161d6" title="Multiple Sounds" author="Massimo Stella" path="Massimo Stella/Multiple Sounds-v3.i7x" folder="Massimo Stella" encoding="utf-8" version="3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Massimo%20Stella/Multiple%20Sounds-v3.i7x" filename="Multiple Sounds-v3.i7x" bytes="11382" sha256="eea42694238c63b9ced9ca4626abbcb06560f050abb180acc330746dadf5fcf0" />
+    <dependencies />
+  </extension>
+  <extension id="ext-8fcee533148ba6e138b752b0" title="Actions on Groups" author="Matt Weiner" path="Matt Weiner/Actions on Groups-v1.i7x" folder="Matt Weiner" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Matt%20Weiner/Actions%20on%20Groups-v1.i7x" filename="Actions on Groups-v1.i7x" bytes="30033" sha256="346949aef5f3cd15de575bda67bcf995b7f9239011d3573b80092899ab4da572" />
+    <dependencies>
+      <dependency title="Serial And Fix" author="Andrew Plotkin" kind="integration" line="84" when="without" status="internal" targets="ext-6723888f3ef719762f0f58ca" />
+    </dependencies>
+  </extension>
+  <extension id="ext-1e5d03f807e801aee4989a8c" title="Exit Descriptions" author="Matthew Fletcher" path="Matthew Fletcher/Exit Descriptions-v3.i7x" folder="Matthew Fletcher" encoding="utf-8" version="3.0.0">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Matthew%20Fletcher/Exit%20Descriptions-v3.i7x" filename="Exit Descriptions-v3.i7x" bytes="2543" sha256="c9a2f821ca2bb681f2cd1a3ccc9aed6f7ef458d9555f275dcb62271a14affdbe" />
+    <dependencies />
+  </extension>
+  <extension id="ext-864e3e0f098a468d7de2b94a" title="Exit Descriptions" author="Matthew Fletcher" path="Matthew Fletcher/Exit Descriptions-v4.i7x" folder="Matthew Fletcher" encoding="utf-8" version="4.0.0">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Matthew%20Fletcher/Exit%20Descriptions-v4.i7x" filename="Exit Descriptions-v4.i7x" bytes="3551" sha256="aa6db47241148f2c7e5aba819a8b85b6374ad9e90c02552374eba8e74fd21d91" />
+    <dependencies />
+  </extension>
+  <extension id="ext-f120f8b53342d52b96052127" title="Exit Descriptions" author="Matthew Fletcher" path="Matthew Fletcher/Exit Descriptions-v5.i7x" folder="Matthew Fletcher" encoding="utf-8" version="5.0.0">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Matthew%20Fletcher/Exit%20Descriptions-v5.i7x" filename="Exit Descriptions-v5.i7x" bytes="6403" sha256="b1be810059a841a815bb859e07205f3554dac534eb587007ab076cebbffe51c6" />
+    <dependencies />
+  </extension>
+  <extension id="ext-f82dd52c8d70731cb33d48c5" title="Questions" author="Michael Callaghan" path="Michael Callaghan/Questions-v5.i7x" folder="Michael Callaghan" encoding="utf-8" version="5.2" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Michael%20Callaghan/Questions-v5.i7x" filename="Questions-v5.i7x" bytes="39788" sha256="32517fa1e43fb9afe73a1d814f169b04ed1142b071532576359d6f616f98bc96" />
+    <dependencies>
+      <dependency title="Fixed Point Maths" author="Michael Callaghan" kind="integration" line="456" when="without" status="external" />
+      <dependency title="Fixed Point Maths" author="Michael Callaghan" kind="integration" line="473" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-7bcf80e25bc7e41cac3c2b03" title="Debug Tags" author="Michael Kielstra" path="Michael Kielstra/Debug Tags-v1.i7x" folder="Michael Kielstra" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Michael%20Kielstra/Debug%20Tags-v1.i7x" filename="Debug Tags-v1.i7x" bytes="8980" sha256="927baf3e8335315ae2b3142ffaeafa05b712898d55d1c07c357d86d938990bfa" />
+    <dependencies />
+  </extension>
+  <extension id="ext-667553c3f4bb273212764b17" title="Assumed Conversers" author="Michael Martin" path="Michael Martin/Assumed Conversers-v3.i7x" folder="Michael Martin" encoding="utf-8" version="3.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Michael%20Martin/Assumed%20Conversers-v3.i7x" filename="Assumed Conversers-v3.i7x" bytes="3492" sha256="59224dfcd29be8112d2922b8378ca674df20d7bfbe91d17b0cf436ee829ec846" />
+    <dependencies />
+  </extension>
+  <extension id="ext-e4e334c02ed06b3951e392a9" title="Quip-Based Conversation" author="Michael Martin" path="Michael Martin/Quip-Based Conversation-v5.i7x" folder="Michael Martin" encoding="utf-8" version="5.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Michael%20Martin/Quip-Based%20Conversation-v5.i7x" filename="Quip-Based Conversation-v5.i7x" bytes="16420" sha256="980c9481a9d9b8805a9713b306ec8813c2e48dfab8f0855790bf2b7a653e9df2" />
+    <dependencies>
+      <dependency title="Reactable Quips" author="Michael Martin" kind="include" line="5" requested-version="10.1" min-version="10.1.0" max-version-exclusive="11.0.0" status="internal" targets="ext-647623e063e996484002f8c0" />
+    </dependencies>
+  </extension>
+  <extension id="ext-647623e063e996484002f8c0" title="Reactable Quips" author="Michael Martin" path="Michael Martin/Reactable Quips-v10.i7x" folder="Michael Martin" encoding="utf-8" version="10.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Michael%20Martin/Reactable%20Quips-v10.i7x" filename="Reactable Quips-v10.i7x" bytes="20056" sha256="60e37f2c0ec453c7174a6be39aad06778a19e39e8f65028bd98b822c4a411b1f" />
+    <dependencies />
+  </extension>
+  <extension id="ext-7496d7a71ec4b9032e6deeec" title="Unicode Interrogation" author="Michael Martin" path="Michael Martin/Unicode Interrogation-v2.i7x" folder="Michael Martin" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Michael%20Martin/Unicode%20Interrogation-v2.i7x" filename="Unicode Interrogation-v2.i7x" bytes="1842" sha256="c58d94e437fecce280835fe70703e93d109215fa330745e4e7cdfffda06b96ff" />
+    <dependencies />
+  </extension>
+  <extension id="ext-e2fa22d91d1e81de22e0684d" title="Achievements" author="Mikael Segercrantz" path="Mikael Segercrantz/Achievements-v4.i7x" folder="Mikael Segercrantz" encoding="utf-8" version="4.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Mikael%20Segercrantz/Achievements-v4.i7x" filename="Achievements-v4.i7x" bytes="18327" sha256="5403e2a9eeff9e4bdb6b6f3162585c48b2d393dab6da5fec01c5578fc018d202" />
+    <dependencies />
+  </extension>
+  <extension id="ext-7d6aeee0a4cc3c64d0879cba" title="Atmospheric Effects" author="Mikael Segercrantz" path="Mikael Segercrantz/Atmospheric Effects-v6.i7x" folder="Mikael Segercrantz" encoding="utf-8" version="6.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Mikael%20Segercrantz/Atmospheric%20Effects-v6.i7x" filename="Atmospheric Effects-v6.i7x" bytes="40965" sha256="df4507a07c0b59ced89feb7086ea6373ae8da4cb6efe6a3ac594ab69b5813798" />
+    <dependencies />
+  </extension>
+  <extension id="ext-da8cf8112b81c067d6843323" title="Randomness" author="Mikael Segercrantz" path="Mikael Segercrantz/Randomness-v2.i7x" folder="Mikael Segercrantz" encoding="utf-8" version="2.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Mikael%20Segercrantz/Randomness-v2.i7x" filename="Randomness-v2.i7x" bytes="3983" sha256="784f62119bf078bd6c0322360a99d6033813a215e0b8a8a121e2eed730d6727f" />
+    <dependencies />
+  </extension>
+  <extension id="ext-9ba0a9077af77c77c92fbfec" title="Trinity Inventory" author="Mikael Segercrantz" path="Mikael Segercrantz/Trinity Inventory-v5.i7x" folder="Mikael Segercrantz" encoding="utf-8" version="5.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Mikael%20Segercrantz/Trinity%20Inventory-v5.i7x" filename="Trinity Inventory-v5.i7x" bytes="20959" sha256="58721097c1874cabe8a8ff5cf6e913ad71b828c7b0b5605aee0c2baf3601c6ed" />
+    <dependencies />
+  </extension>
+  <extension id="ext-793cc2d862fca0f8b88d9833" title="Autotaking" author="Mike Ciul" path="Mike Ciul/Autotaking-v1.i7x" folder="Mike Ciul" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Mike%20Ciul/Autotaking-v1.i7x" filename="Autotaking-v1.i7x" bytes="4290" sha256="3563627e5a21fa05886e922abe44f670e68dd994efefe0d06a3db59965ebe68b" />
+    <dependencies />
+  </extension>
+  <extension id="ext-319955cccfdba6c6c26d9c3d" title="Autoundo for Object Response Tests" author="Mike Ciul" path="Mike Ciul/Autoundo for Object Response Tests-v1.i7x" folder="Mike Ciul" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Mike%20Ciul/Autoundo%20for%20Object%20Response%20Tests-v1.i7x" filename="Autoundo for Object Response Tests-v1.i7x" bytes="7631" sha256="008a6a7a6e42740d88fe778638a5d8764adb3eb1a9cedaa16da93da149c9c1b2" />
+    <dependencies>
+      <dependency title="Object Response Tests" author="Juhana Leinonen" kind="include" line="7" status="internal" targets="ext-0dcec96e2b47086d7df176a7" />
+    </dependencies>
+    <warning line="7">Include declaration has no terminal punctuation; inferred at blank line.</warning>
+  </extension>
+  <extension id="ext-fe9963f71a9552212ada9ff3" title="Effective Infinity" author="Mike Ciul" path="Mike Ciul/Effective Infinity-v1.i7x" folder="Mike Ciul" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Mike%20Ciul/Effective%20Infinity-v1.i7x" filename="Effective Infinity-v1.i7x" bytes="3830" sha256="f6eab20bd0fb47e93e9b61347e9caedf4f3a15f7d6941d0153acc74b3d1caae2" />
+    <dependencies />
+  </extension>
+  <extension id="ext-e8d71b53d835be1b1b31a506" title="Flexible Action Requirements" author="Mike Ciul" path="Mike Ciul/Flexible Action Requirements-v1.i7x" folder="Mike Ciul" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Mike%20Ciul/Flexible%20Action%20Requirements-v1.i7x" filename="Flexible Action Requirements-v1.i7x" bytes="11509" sha256="828c51e5f98f057cadaea8d0a0ad95ffb1980df70cffde5f45ff4499694fed78" />
+    <dependencies />
+  </extension>
+  <extension id="ext-1c6ee2df2d2feef8dc48b0d8" title="Objects Matching Snippets" author="Mike Ciul" path="Mike Ciul/Objects Matching Snippets-v1.i7x" folder="Mike Ciul" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Mike%20Ciul/Objects%20Matching%20Snippets-v1.i7x" filename="Objects Matching Snippets-v1.i7x" bytes="8681" sha256="dc436232bb3ebd02615a6704a74af3725b9b632d81085e9a60bec34ea132dab9" />
+    <dependencies />
+  </extension>
+  <extension id="ext-1a27e2a2b735cab6f2d862a4" title="Takeability" author="Mike Ciul" path="Mike Ciul/Takeability-v1.i7x" folder="Mike Ciul" encoding="utf-8" version="1.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Mike%20Ciul/Takeability-v1.i7x" filename="Takeability-v1.i7x" bytes="6241" sha256="9400a1299c4c273f2fff5ceaeebebda212c163e6ac4ae1980644994fdbf47d3e" />
+    <dependencies />
+  </extension>
+  <extension id="ext-ef6724e2dede2a2c5691ec67" title="Unknown Word Error" author="Mike Ciul" path="Mike Ciul/Unknown Word Error-v2.i7x" folder="Mike Ciul" encoding="utf-8" version="2.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Mike%20Ciul/Unknown%20Word%20Error-v2.i7x" filename="Unknown Word Error-v2.i7x" bytes="3419" sha256="01ac3db973bce16929c488f1e53c206e28804bf1a40cee928a7a7319ad775bd2" />
+    <dependencies />
+  </extension>
+  <extension id="ext-59f7425e01e05bba6e71c8f5" title="Basic Plans" author="Nate Cull" path="Nate Cull/Basic Plans-v3.i7x" folder="Nate Cull" encoding="utf-8" version="3.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nate%20Cull/Basic%20Plans-v3.i7x" filename="Basic Plans-v3.i7x" bytes="18807" sha256="82309f421492402bcb463796d18d11527c9188e084b25d17fd376baa4f9fe447" />
+    <dependencies>
+      <dependency title="Planner" author="Nate Cull" kind="include" line="5" status="internal" targets="ext-9cf9a21068fd4d57e5dd948a" />
+    </dependencies>
+  </extension>
+  <extension id="ext-9cf9a21068fd4d57e5dd948a" title="Planner" author="Nate Cull" path="Nate Cull/Planner-v2.i7x" folder="Nate Cull" encoding="utf-8" version="2.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nate%20Cull/Planner-v2.i7x" filename="Planner-v2.i7x" bytes="29184" sha256="cc793a8b0e0491b48d2488d7da22bf957e2c7d0172bcf8cda84efa9fe6c3f694" />
+    <dependencies />
+  </extension>
+  <extension id="ext-d73d3bcd33d9fc988d8b2552" title="Character Portraits" author="Nathanael Nerode" path="Nathanael Nerode/Character Portraits-v1.i7x" folder="Nathanael Nerode" encoding="utf-8" version="1.0.220523">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Character%20Portraits-v1.i7x" filename="Character Portraits-v1.i7x" bytes="21854" sha256="4819bef3cfb60afaaa19e898fb8b1648a32e756bf7fdb63185c5c59cd4a089ad" />
+    <dependencies>
+      <dependency title="Large Game Speedup" author="Nathanael Nerode" kind="include" line="5" status="internal" targets="ext-14a1c4f9912eeb41c7b60246" />
+    </dependencies>
+  </extension>
+  <extension id="ext-49327e763f22039d2e01a6f1" title="Compliant Characters" author="Nathanael Nerode" path="Nathanael Nerode/Compliant Characters-v5.i7x" folder="Nathanael Nerode" encoding="utf-8" version="5.1.230727">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Compliant%20Characters-v5.i7x" filename="Compliant Characters-v5.i7x" bytes="56546" sha256="04b1e5a6df1b5218eefadab02b25512dcc8a31dffe362d9dc30d93649fbb8592" />
+    <dependencies>
+      <dependency title="Neutral Standard Responses" author="Nathanael Nerode" kind="include" line="5" status="internal" targets="ext-9eca118ab18c3bcfaa45d449" />
+    </dependencies>
+  </extension>
+  <extension id="ext-d5d218cae01199c27b1eb576" title="Extended Banner" author="Nathanael Nerode" path="Nathanael Nerode/Extended Banner-v6.i7x" folder="Nathanael Nerode" encoding="utf-8" version="6.0.220604">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Extended%20Banner-v6.i7x" filename="Extended Banner-v6.i7x" bytes="6197" sha256="e187a21e04621c9a2db73e789567e87f19c8e14b3c27d9b8147644af9ee0d4f1" />
+    <dependencies />
+  </extension>
+  <extension id="ext-36be5f9d5649cc4ac70211ca" title="Gender Options" author="Nathanael Nerode" path="Nathanael Nerode/Gender Options-v4.i7x" folder="Nathanael Nerode" encoding="utf-8" version="4.0.220604">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Gender%20Options-v4.i7x" filename="Gender Options-v4.i7x" bytes="48512" sha256="ec76a183202ed82518c94a6cfecffbfe2a1cf2677cdcfff1021b85039b801ca1" />
+    <dependencies>
+      <dependency title="Standard Rules" author="Graham Nelson" kind="include" line="7" status="external" />
+      <dependency title="Neutral Standard Responses" author="Nathanael Nerode" kind="integration" line="93" when="with" status="internal" targets="ext-9eca118ab18c3bcfaa45d449" />
+      <dependency title="Original Parser" author="Ron Newcomb" kind="integration" line="136" when="without" status="external" />
+      <dependency title="Original Parser" author="Ron Newcomb" kind="integration" line="256" when="with" status="external" />
+      <dependency title="English Language" author="Graham Nelson" kind="integration" line="368" when="with" status="external" />
+      <dependency title="Plurality" author="Emily Short" kind="integration" line="785" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-b5490c2d37adaab74e0da5e1" title="Gender Speedup" author="Nathanael Nerode" path="Nathanael Nerode/Gender Speedup-v3.i7x" folder="Nathanael Nerode" encoding="utf-8" version="3.0.220524">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Gender%20Speedup-v3.i7x" filename="Gender Speedup-v3.i7x" bytes="14481" sha256="adba52fc8c82beec4976a6fd62539cd45617892a025ee00928a7bab256a53b66" />
+    <dependencies>
+      <dependency title="Gender Options" author="Nathanael Nerode" kind="include" line="5" status="internal" targets="ext-36be5f9d5649cc4ac70211ca" />
+    </dependencies>
+  </extension>
+  <extension id="ext-8a78f06116df37d57cd77539" title="Initial Cursor at Top or Bottom" author="Nathanael Nerode" path="Nathanael Nerode/Initial Cursor at Top or Bottom-v2.i7x" folder="Nathanael Nerode" encoding="utf-8" version="2.0.220604">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Initial%20Cursor%20at%20Top%20or%20Bottom-v2.i7x" filename="Initial Cursor at Top or Bottom-v2.i7x" bytes="10015" sha256="e898074bda57d08dc68fb39575b53b3d647ee90b991a068e6e016196aa3ccaa6" />
+    <dependencies />
+  </extension>
+  <extension id="ext-14a1c4f9912eeb41c7b60246" title="Large Game Speedup" author="Nathanael Nerode" path="Nathanael Nerode/Large Game Speedup-v6.i7x" folder="Nathanael Nerode" encoding="utf-8" version="6.0.220524">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Large%20Game%20Speedup-v6.i7x" filename="Large Game Speedup-v6.i7x" bytes="27757" sha256="f39845eeff066063ff51a5eeb4b1ae925b002393f20698da14d952ff1ed8435c" />
+    <dependencies>
+      <dependency title="Room Description Control" author="Emily Short" kind="integration" line="109" when="without" status="internal" targets="ext-d93c8cc36c0c2cb1da605fcf" />
+    </dependencies>
+  </extension>
+  <extension id="ext-b1d5a32e6d548faca03cc506" title="Nathanael's Cookbook" author="Nathanael Nerode" path="Nathanael Nerode/Nathanael's Cookbook-v6.i7x" folder="Nathanael Nerode" encoding="utf-8" version="6.0.220604">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Nathanael%27s%20Cookbook-v6.i7x" filename="Nathanael's Cookbook-v6.i7x" bytes="21002" sha256="403a6e2e73c0776bc7c2be6865c0a95490bba3466690b6af2cca0802d52a89e8" />
+    <dependencies />
+  </extension>
+  <extension id="ext-628d8c56b1ab9c475b475f01" title="Nathanael's Debug Tools" author="Nathanael Nerode" path="Nathanael Nerode/Nathanael's Debug Tools-v3.i7x" folder="Nathanael Nerode" encoding="utf-8" version="3.0.220522">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Nathanael%27s%20Debug%20Tools-v3.i7x" filename="Nathanael's Debug Tools-v3.i7x" bytes="2153" sha256="c28f8769f7e3f9233fa730c68c686b5bf76a4740d51f19153a341d74a2c7d1d9" />
+    <dependencies />
+  </extension>
+  <extension id="ext-9eca118ab18c3bcfaa45d449" title="Neutral Standard Responses" author="Nathanael Nerode" path="Nathanael Nerode/Neutral Standard Responses-v5.i7x" folder="Nathanael Nerode" encoding="utf-8" version="5.0.220521">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Neutral%20Standard%20Responses-v5.i7x" filename="Neutral Standard Responses-v5.i7x" bytes="106312" sha256="c57f09f2a6477822a4ce23f74a15b041e417a37b44bf103b4bd710fbf876145a" />
+    <dependencies>
+      <dependency title="Gender Options" author="Nathanael Nerode" kind="integration" line="1116" when="without" status="internal" targets="ext-36be5f9d5649cc4ac70211ca" />
+    </dependencies>
+  </extension>
+  <extension id="ext-f17146591e2202868d656a1a" title="Room Description Supporter Bugfixes" author="Nathanael Nerode" path="Nathanael Nerode/Room Description Supporter Bugfixes-v1.i7x" folder="Nathanael Nerode" encoding="utf-8" version="1.0.220523">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Room%20Description%20Supporter%20Bugfixes-v1.i7x" filename="Room Description Supporter Bugfixes-v1.i7x" bytes="10439" sha256="6c9ff26833d1f6c4809720e8450d6989f3e414c51d95f6f41de13c70c1737be4" />
+    <dependencies>
+      <dependency title="Large Game Speedup" author="Nathanael Nerode" kind="include" line="5" status="internal" targets="ext-14a1c4f9912eeb41c7b60246" />
+    </dependencies>
+  </extension>
+  <extension id="ext-d17320283fed0ac39fc497bd" title="Standard Rules Dead Code Removal" author="Nathanael Nerode" path="Nathanael Nerode/Standard Rules Dead Code Removal-v2.i7x" folder="Nathanael Nerode" encoding="utf-8" version="2.0.220521">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Standard%20Rules%20Dead%20Code%20Removal-v2.i7x" filename="Standard Rules Dead Code Removal-v2.i7x" bytes="2496" sha256="be91ca182ef8d9880ff998ec558af624513f12f82938c3e534db8a5ecdd1ac47" />
+    <dependencies>
+      <dependency title="Room Description Control" author="Emily Short" kind="integration" line="5" when="with" status="internal" targets="ext-d93c8cc36c0c2cb1da605fcf" />
+    </dependencies>
+  </extension>
+  <extension id="ext-876c3f18f39b0b15581a53ab" title="Tab Removal" author="Nathanael Nerode" path="Nathanael Nerode/Tab Removal-v2.i7x" folder="Nathanael Nerode" encoding="utf-8" version="2.0.220522">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Tab%20Removal-v2.i7x" filename="Tab Removal-v2.i7x" bytes="5444" sha256="cb896c0be2c43d6746f338ea3b72e9479be9aff9d7b8987910efd15fbe65f3b5" />
+    <dependencies />
+  </extension>
+  <extension id="ext-a6304f7698d8649ed562d715" title="Title Case for Headings" author="Nathanael Nerode" path="Nathanael Nerode/Title Case for Headings-v2.i7x" folder="Nathanael Nerode" encoding="utf-8" version="2.0.220529">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Title%20Case%20for%20Headings-v2.i7x" filename="Title Case for Headings-v2.i7x" bytes="18130" sha256="67c8cad5e47e6923d942ddb2df5ebd60c7fff548423f1844e01b7258d1d15ba4" />
+    <dependencies>
+      <dependency title="Undo Output Control" author="Erik Temple" kind="integration" line="109" when="without" status="external" />
+      <dependency title="Undo Output Control" author="Nathanael Nerode" kind="integration" line="111" when="without" status="internal" targets="ext-9d6346d942045f63754284d2" />
+    </dependencies>
+  </extension>
+  <extension id="ext-9d6346d942045f63754284d2" title="Undo Output Control" author="Nathanael Nerode" path="Nathanael Nerode/Undo Output Control-v6.i7x" folder="Nathanael Nerode" encoding="utf-8" version="6.0.220529">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Undo%20Output%20Control-v6.i7x" filename="Undo Output Control-v6.i7x" bytes="35768" sha256="1c7b3582a4f59c50d7d70d9d501a7f41c7f1f62bc2a6a4f89bd4fded586db922" />
+    <dependencies>
+      <dependency title="Unified Glulx Input" author="Andrew Plotkin" kind="integration" line="139" when="without" status="external" />
+      <dependency title="Unified Glulx Input" author="Andrew Plotkin" kind="integration" line="289" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-016de2be37aa833e9c4ca792" title="Verb Stripping" author="Nathanael Nerode" path="Nathanael Nerode/Verb Stripping-v2.i7x" folder="Nathanael Nerode" encoding="utf-8" version="2.0.220521">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Nathanael%20Nerode/Verb%20Stripping-v2.i7x" filename="Verb Stripping-v2.i7x" bytes="3693" sha256="87d452297c038303bb6f7fa0c7ffe9608fdac845368928da5878ba7213f0aad9" />
+    <dependencies />
+  </extension>
+  <extension id="ext-2c24c12f9f62370e4acda6db" title="Checkpoints" author="Peter Orme" path="Peter Orme/Checkpoints-v1.i7x" folder="Peter Orme" encoding="utf-8" version="1.0.220524">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Peter%20Orme/Checkpoints-v1.i7x" filename="Checkpoints-v1.i7x" bytes="10662" sha256="27be8cf581951441eef12964fa35196121eb945dc5157e54d7313da31f66e89f" />
+    <dependencies>
+      <dependency title="Unit Testing" author="Peter Orme" kind="include" line="7" status="internal" targets="ext-6a6f270ba98b8cf62e124523" />
+    </dependencies>
+  </extension>
+  <extension id="ext-78e17f740a06aa8af1d22b22" title="Developer Framework" author="Peter Orme" path="Peter Orme/Developer Framework-v1.i7x" folder="Peter Orme" encoding="utf-8" version="1.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Peter%20Orme/Developer%20Framework-v1.i7x" filename="Developer Framework-v1.i7x" bytes="2667" sha256="39d817ae39d56d88019a3afb1c716d4c2d79457cf5c39602e95bebf6342285c3" />
+    <dependencies />
+  </extension>
+  <extension id="ext-ec1f4f0cc023c71623cc0935" title="Flexible Logger" author="Peter Orme" path="Peter Orme/Flexible Logger-v3.i7x" folder="Peter Orme" encoding="utf-8" version="3.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Peter%20Orme/Flexible%20Logger-v3.i7x" filename="Flexible Logger-v3.i7x" bytes="10723" sha256="cb7bcabcc2181c44de68a41d84d2d4384eae66ca3ce83237b8de3a9d5a9adb12" />
+    <dependencies>
+      <dependency title="Developer Framework" author="Peter Orme" kind="include" line="6" status="internal" targets="ext-78e17f740a06aa8af1d22b22" />
+    </dependencies>
+  </extension>
+  <extension id="ext-c6aaf687fe8d78f4142632e6" title="Object Descriptors" author="Peter Orme" path="Peter Orme/Object Descriptors-v3.i7x" folder="Peter Orme" encoding="utf-8" version="3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Peter%20Orme/Object%20Descriptors-v3.i7x" filename="Object Descriptors-v3.i7x" bytes="5977" sha256="0c26ee6b5d159c2d04ff3e690b8bcdc64b2e28d09ebf060225418ec885cc5f0f" />
+    <dependencies />
+  </extension>
+  <extension id="ext-e852ceec6b7272546eac604c" title="Possible Movements" author="Peter Orme" path="Peter Orme/Possible Movements-v2.i7x" folder="Peter Orme" encoding="utf-8" version="2.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Peter%20Orme/Possible%20Movements-v2.i7x" filename="Possible Movements-v2.i7x" bytes="1301" sha256="c066fd5dcd13a1c7c4f7007d473bd325cf1781e8b47354d710ce0874c99ac65d" />
+    <dependencies />
+  </extension>
+  <extension id="ext-6a6f270ba98b8cf62e124523" title="Unit Testing" author="Peter Orme" path="Peter Orme/Unit Testing-v2.i7x" folder="Peter Orme" encoding="utf-8" version="2.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Peter%20Orme/Unit%20Testing-v2.i7x" filename="Unit Testing-v2.i7x" bytes="11850" sha256="1f48c9601e3c93aabd1cdd3571404d06d58b80e6b68e0d8992ab9c5f91c37ccf" />
+    <dependencies>
+      <dependency title="Developer Framework" author="Peter Orme" kind="include" line="5" status="internal" targets="ext-78e17f740a06aa8af1d22b22" />
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="integration" line="19" when="without" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-4ee16725b402d6e40cf5f270" title="Universal Opening" author="Peter Orme" path="Peter Orme/Universal Opening-v1.i7x" folder="Peter Orme" encoding="utf-8" version="1.0.220524">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Peter%20Orme/Universal%20Opening-v1.i7x" filename="Universal Opening-v1.i7x" bytes="3913" sha256="10dd6ce822b5b380f124c73631b7984a8dc0065711811e0bf3e078e256cfd7f5" />
+    <dependencies />
+  </extension>
+  <extension id="ext-bf778ca482c6ac367e897fa7" title="Make Test" author="Philip Riley" path="Philip Riley/Make Test-v1.i7x" folder="Philip Riley" encoding="utf-8" version="1.0.0">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Philip%20Riley/Make%20Test-v1.i7x" filename="Make Test-v1.i7x" bytes="1863" sha256="8e56ae556ad1c26e8939ba6f9a0e2581ca10c852cdd35bea1c63e11499f5fd4c" />
+    <dependencies />
+  </extension>
+  <extension id="ext-3aef13acc67827dcf5b3778f" title="After Not Doing Something" author="Ron Newcomb" path="Ron Newcomb/After Not Doing Something-v2.i7x" folder="Ron Newcomb" encoding="utf-8" version="2.1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Ron%20Newcomb/After%20Not%20Doing%20Something-v2.i7x" filename="After Not Doing Something-v2.i7x" bytes="3156" sha256="98acaca9d212a2d38a9f9d33951ad2e267542163436f778e0d596589d11815a4" />
+    <dependencies>
+      <dependency title="Basic Inform" author="Graham Nelson" kind="integration" line="8" when="with" status="external" />
+      <dependency title="Basic Inform" author="Graham Nelson" kind="integration" line="33" when="without" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-ed36c15649f1f672b6b73eed" title="Editable Stored Actions" author="Ron Newcomb" path="Ron Newcomb/Editable Stored Actions-v10.i7x" folder="Ron Newcomb" encoding="utf-8" version="10">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Ron%20Newcomb/Editable%20Stored%20Actions-v10.i7x" filename="Editable Stored Actions-v10.i7x" bytes="14849" sha256="eb2c03ae7945daec288fa03b4e55a3f0ed7483b21c733b0871c7da409aff54ab" />
+    <dependencies />
+  </extension>
+  <extension id="ext-7a43e880e022f9a2089a9d73" title="Permission to Visit" author="Ron Newcomb" path="Ron Newcomb/Permission to Visit-v7.i7x" folder="Ron Newcomb" encoding="utf-8" version="7">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Ron%20Newcomb/Permission%20to%20Visit-v7.i7x" filename="Permission to Visit-v7.i7x" bytes="37552" sha256="03303d8b0e826b8d5c35efc0977ba2e56b5c4016e8a0ec7a34a0d1ebb7d75746" />
+    <dependencies>
+      <dependency title="Conversation Framework" author="Eric Eve" kind="integration" line="157" when="with" status="internal" targets="ext-0be017c52d127176ed4f58f6" />
+    </dependencies>
+  </extension>
+  <extension id="ext-c1ce90d808dfe7a4328e7ea0" title="Phrases for Tables with Topics" author="Ron Newcomb" path="Ron Newcomb/Phrases for Tables with Topics-v3.i7x" folder="Ron Newcomb" encoding="utf-8" version="3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Ron%20Newcomb/Phrases%20for%20Tables%20with%20Topics-v3.i7x" filename="Phrases for Tables with Topics-v3.i7x" bytes="6116" sha256="8fcf475da4884e5f112af6c9868a21d75e701080eab1b1f5762aa6545fbac6f4" />
+    <dependencies />
+  </extension>
+  <extension id="ext-ef2505f52db8f3610bdcbf18" title="Scope Control" author="Ron Newcomb" path="Ron Newcomb/Scope Control-v2.i7x" folder="Ron Newcomb" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Ron%20Newcomb/Scope%20Control-v2.i7x" filename="Scope Control-v2.i7x" bytes="4494" sha256="930662a327cd575a69fcea5493d0753cba994cc2fa3937ebd510e59c2fb22749" />
+    <dependencies />
+  </extension>
+  <extension id="ext-b13ca02368517a3747f95096" title="Unsuccessful PC Attempt" author="Ron Newcomb" path="Ron Newcomb/Unsuccessful PC Attempt-v2.i7x" folder="Ron Newcomb" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Ron%20Newcomb/Unsuccessful%20PC%20Attempt-v2.i7x" filename="Unsuccessful PC Attempt-v2.i7x" bytes="4704" sha256="c983504e2c56235ace5e418190ccb770998e4c555b0a96cf595f5e3320d06437" />
+    <dependencies />
+  </extension>
+  <extension id="ext-4fb9a5353747a87320e01471" title="Plugs and Sockets" author="Sean Turner" path="Sean Turner/Plugs and Sockets-v4.i7x" folder="Sean Turner" encoding="utf-8" version="4.2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Sean%20Turner/Plugs%20and%20Sockets-v4.i7x" filename="Plugs and Sockets-v4.i7x" bytes="36177" sha256="cefc7fe3453ad83c489a45e8ca53fcda87a8b2f05db6da115f2b4e852e7f49ef" />
+    <dependencies />
+  </extension>
+  <extension id="ext-27cec57f9e0d1b51d8d9d8eb" title="Spanish Language" author="Sebastian Arg" path="Sebastian Arg/Spanish Languagev2.i7x" folder="Sebastian Arg" encoding="utf-8" version="2.0.0">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Sebastian%20Arg/Spanish%20Languagev2.i7x" filename="Spanish Languagev2.i7x" bytes="94062" sha256="3607f580c2bc21b4a8c0867add7f44502e095ea6784fc52df2e43da274cb3c4b" />
+    <dependencies>
+      <dependency title="Text Capture" author="Eric Eve" kind="integration" line="392" when="without" status="internal" targets="ext-4a9f443a0cec6999ca3448e9" />
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="integration" line="1148" when="with" status="external" />
+      <dependency title="Inanimate Listeners" author="Emily Short" kind="integration" line="1152" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-fbbd6d49bd8a07a9f117f5d2" title="Game Ending Reloaded" author="Shin" path="Shin/Game Ending Reloaded-v1.i7x" folder="Shin" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Shin/Game%20Ending%20Reloaded-v1.i7x" filename="Game Ending Reloaded-v1.i7x" bytes="825" sha256="0ab446be4aa998cde8beca7c06e19dac4587815425e27c577de51c6b55d7b742" />
+    <dependencies />
+  </extension>
+  <extension id="ext-578309882276362aca17a3cd" title="Points Awarding Reloaded" author="Shin" path="Shin/Points Awarding Reloaded-v1.i7x" folder="Shin" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Shin/Points%20Awarding%20Reloaded-v1.i7x" filename="Points Awarding Reloaded-v1.i7x" bytes="367" sha256="4215c769894b94b8309c1c0a134edb9860131edaa67721be86903c71cdca5608" />
+    <dependencies />
+  </extension>
+  <extension id="ext-133b4fa522fac6d454dd390c" title="Singing Reloaded" author="Shin" path="Shin/Singing Reloaded-v1.i7x" folder="Shin" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Shin/Singing%20Reloaded-v1.i7x" filename="Singing Reloaded-v1.i7x" bytes="947" sha256="0d24641a43f92e85d5606a9b3b125e0bbfff636e756a46bb3a6269055e01cac1" />
+    <dependencies />
+  </extension>
+  <extension id="ext-d62d1bfec1841e4b7dfd356c" title="Swearing Reloaded" author="Shin" path="Shin/Swearing Reloaded-v1.i7x" folder="Shin" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Shin/Swearing%20Reloaded-v1.i7x" filename="Swearing Reloaded-v1.i7x" bytes="1860" sha256="bfa912da0fe84d132fe2f7bcce79c58ad0813f9521a538b38e8d984a5b0477e7" />
+    <dependencies />
+  </extension>
+  <extension id="ext-3799942a6e0748921bd0d721" title="Footnotes" author="Stephen Granade" path="Stephen Granade/Footnotes-v2.i7x" folder="Stephen Granade" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Stephen%20Granade/Footnotes-v2.i7x" filename="Footnotes-v2.i7x" bytes="6581" sha256="b3bf507633569ed5946d8ca0a9b67a00ac3fc18e0c5c7c34e82fa0b2ad8884fc" />
+    <dependencies />
+  </extension>
+  <extension id="ext-7e34a8b661065c4ab04e0819" title="Dynamic Objects" author="Tara McGrew" path="Tara McGrew/Dynamic Objects-v9.i7x" folder="Tara McGrew" encoding="utf-8" version="9.0.0" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Tara%20McGrew/Dynamic%20Objects-v9.i7x" filename="Dynamic Objects-v9.i7x" bytes="22884" sha256="20fc8785f17ed089a0e222525c581ea75bfefdc5f60b853b28c07a9c8593f11c" />
+    <dependencies>
+      <dependency title="Dynamic Tables" author="Tara McGrew" kind="include" line="7" status="internal" targets="ext-0ab05fce039522ea280ff1fd" />
+    </dependencies>
+  </extension>
+  <extension id="ext-0ab05fce039522ea280ff1fd" title="Dynamic Tables" author="Tara McGrew" path="Tara McGrew/Dynamic Tables-v5.i7x" folder="Tara McGrew" encoding="utf-8" version="5.1.0">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Tara%20McGrew/Dynamic%20Tables-v5.i7x" filename="Dynamic Tables-v5.i7x" bytes="27276" sha256="2b793ebcd40360e0107c0c40182ec822e6bcb733cf30e9a9c254c6e6af924665" />
+    <dependencies />
+  </extension>
+  <extension id="ext-02e3f2f53c21691db273bd20" title="Hypothetical Questions" author="Tara McGrew" path="Tara McGrew/Hypothetical Questions-v5.i7x" folder="Tara McGrew" encoding="utf-8" version="5.1.0" qualifiers="for Glulx only">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Tara%20McGrew/Hypothetical%20Questions-v5.i7x" filename="Hypothetical Questions-v5.i7x" bytes="8648" sha256="4e11e9fe9edb8fe2c8c6b0da2168c8fe659ab521b9a9459fae7f7a45af6cf04f" />
+    <dependencies />
+  </extension>
+  <extension id="ext-1f24cfa7550326877c10f67b" title="Basic Help Menu" author="Wade Clarke" path="Wade Clarke/Basic Help Menu-v4.i7x" folder="Wade Clarke" encoding="utf-8" version="4">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Wade%20Clarke/Basic%20Help%20Menu-v4.i7x" filename="Basic Help Menu-v4.i7x" bytes="15906" sha256="c3bbb2fd18df39b0a3e7ece6e77a2c4f63731998a567c69fcbef06cda47a9df0" />
+    <dependencies>
+      <dependency title="Menus" author="Wade Clarke" kind="include" line="5" requested-version="5" min-version="5.0.0" max-version-exclusive="6.0.0" status="internal" targets="ext-6e9ea418778cdb08e129639d" />
+    </dependencies>
+  </extension>
+  <extension id="ext-04a2dfaca193cf26d32438cf" title="Guide Mode" author="Wade Clarke" path="Wade Clarke/Guide Mode-v4.i7x" folder="Wade Clarke" encoding="utf-8" version="4.0">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Wade%20Clarke/Guide%20Mode-v4.i7x" filename="Guide Mode-v4.i7x" bytes="39017" sha256="1ac8e95fa9a468d4fab19f43c1db3d9487a69af1b01621a5faa2f63b879c83fd" />
+    <dependencies>
+      <dependency title="Undo Output Control" author="Nathanael Nerode" kind="include" line="36" status="internal" targets="ext-9d6346d942045f63754284d2" />
+      <dependency title="Autosave" author="Daniel Stelzer" kind="include" line="37" status="internal" targets="ext-8dba857a06b9dbbf8c31be86" />
+    </dependencies>
+  </extension>
+  <extension id="ext-6e9ea418778cdb08e129639d" title="Menus" author="Wade Clarke" path="Wade Clarke/Menus-v5.i7x" folder="Wade Clarke" encoding="utf-8" version="5">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Wade%20Clarke/Menus-v5.i7x" filename="Menus-v5.i7x" bytes="127866" sha256="0917505b4e630031db800ed61950f640d6a57dbecf19ae8f4232ec4faa72ce3c" />
+    <dependencies>
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="include" line="7" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-28ab572f6339563686dc1f19" title="Beta Test" author="Zed Lopez" path="Zed Lopez/Beta Test-v1.i7x" folder="Zed Lopez" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Zed%20Lopez/Beta%20Test-v1.i7x" filename="Beta Test-v1.i7x" bytes="2640" sha256="4c4e16c17be90ec5e2ea2fe8b26ce56872a701821478ead9145a67bdaf44cbe2" />
+    <dependencies />
+  </extension>
+  <extension id="ext-22aed657fbaf3b4e75ae30da" title="Bit Ops" author="Zed Lopez" path="Zed Lopez/Bit Ops-v2.i7x" folder="Zed Lopez" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Zed%20Lopez/Bit%20Ops-v2.i7x" filename="Bit Ops-v2.i7x" bytes="6102" sha256="3c800cebab93091f0ae6f3fc7afd952756d9e898bba440bf8ea62d6efb42e0d0" />
+    <dependencies />
+  </extension>
+  <extension id="ext-278d4862d6dc9a94c3f47900" title="If True" author="Zed Lopez" path="Zed Lopez/If True-v1.i7x" folder="Zed Lopez" encoding="utf-8" version="1.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Zed%20Lopez/If%20True-v1.i7x" filename="If True-v1.i7x" bytes="1606" sha256="3954076349fb080cc698264ac2e00ddee0a157db0acdee7aa112d8238a5b6ce9" />
+    <dependencies>
+      <dependency title="Strange Loopiness" author="Zed Lopez" kind="integration" line="33" when="with" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-58a20eeda4ee18a694cea763" title="Inquiry" author="Zed Lopez" path="Zed Lopez/Inquiry-v4.i7x" folder="Zed Lopez" encoding="utf-8" version="4">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Zed%20Lopez/Inquiry-v4.i7x" filename="Inquiry-v4.i7x" bytes="20024" sha256="0390c53a107ab4a389a647140cc30c1c747654c9abe2299e3408727495a3b16f" />
+    <dependencies>
+      <dependency title="Alternative Startup Rules" author="Dannii Willis" kind="integration" line="273" when="with" status="internal" targets="ext-cef0ac42bc9abb34a702390b" />
+      <dependency title="Alternative Startup Rules" author="Dannii Willis" kind="integration" line="277" when="without" status="internal" targets="ext-cef0ac42bc9abb34a702390b" />
+      <dependency title="Agreeable" author="Zed Lopez" kind="integration" line="317" when="without" status="external" />
+      <dependency title="Basic Screen Effects" author="Emily Short" kind="integration" line="339" when="without" status="external" />
+      <dependency title="Flexible Windows" author="Jon Ingold" kind="integration" line="345" when="without" status="internal" targets="ext-ed88d7effeaef304f9d8608f" />
+      <dependency title="Central Typecasting" author="Zed Lopez" kind="integration" line="350" when="without" status="external" />
+      <dependency title="Char" author="Zed Lopez" kind="integration" line="385" when="without" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-434815c406e2f286c1433772" title="Screenreader" author="Zed Lopez" path="Zed Lopez/Screenreader-v2.i7x" folder="Zed Lopez" encoding="utf-8" version="2">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Zed%20Lopez/Screenreader-v2.i7x" filename="Screenreader-v2.i7x" bytes="6002" sha256="65f1cf041a1e651b705e52126100972e28c6a6d496fb2f466d5aa17c6988577e" />
+    <dependencies>
+      <dependency title="Inquiry" author="Zed Lopez" kind="integration" line="30" when="without" status="internal" targets="ext-58a20eeda4ee18a694cea763" />
+      <dependency title="Agreeable" author="Zed Lopez" kind="integration" line="32" when="without" status="external" />
+      <dependency title="Inquiry" author="Zed Lopez" kind="integration" line="61" when="with" status="internal" targets="ext-58a20eeda4ee18a694cea763" />
+      <dependency title="Alternative Startup Rules" author="Dannii Willis" kind="integration" line="80" when="with" status="internal" targets="ext-cef0ac42bc9abb34a702390b" />
+      <dependency title="Simple Spelling" author="Alice Grove" kind="integration" line="84" when="with" status="internal" targets="ext-2c3db1bc912b4e7a846894fd" />
+      <dependency title="Flexible Windows" author="Jon Ingold" kind="integration" line="95" when="with" status="internal" targets="ext-ed88d7effeaef304f9d8608f" />
+    </dependencies>
+  </extension>
+  <extension id="ext-b0052509a73778f3914a0daf" title="Speechless" author="Zed Lopez" path="Zed Lopez/Speechless-v1.i7x" folder="Zed Lopez" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Zed%20Lopez/Speechless-v1.i7x" filename="Speechless-v1.i7x" bytes="3619" sha256="428180c663d61fd8c5787d25d61a1da3fc43c05696df3e27649df25674e7b5e2" />
+    <dependencies />
+  </extension>
+  <extension id="ext-2167564401a8e34df6570297" title="Tabulate" author="Zed Lopez" path="Zed Lopez/Tabulate-v1.i7x" folder="Zed Lopez" encoding="utf-8" version="1.3">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Zed%20Lopez/Tabulate-v1.i7x" filename="Tabulate-v1.i7x" bytes="1736" sha256="cd75d56adaa992b08b187f394a8df5bc6a6b5c56cb4b4c22754a5dd5fc808640" />
+    <dependencies>
+      <dependency title="Central Typecasting" author="Zed Lopez" kind="integration" line="8" when="without" status="external" />
+    </dependencies>
+  </extension>
+  <extension id="ext-96adfce99370d9df586e092a" title="Trial" author="Zed Lopez" path="Zed Lopez/Trial-v1.i7x" folder="Zed Lopez" encoding="utf-8" version="1">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Zed%20Lopez/Trial-v1.i7x" filename="Trial-v1.i7x" bytes="923" sha256="231f186f1362068d36d09e80e4504de691bfcd5d61f3ff758e0f53c76d6c6979" />
+    <dependencies />
+  </extension>
+  <extension id="ext-a1057c5faf54ec56da9462ee" title="Unit Tests" author="Zed Lopez" path="Zed Lopez/Unit Tests-v7.i7x" folder="Zed Lopez" encoding="utf-8" version="7">
+    <download url="https://raw.githubusercontent.com/interactivefiction/inform7extensions/10.1/Zed%20Lopez/Unit%20Tests-v7.i7x" filename="Unit Tests-v7.i7x" bytes="40609" sha256="81338da40435cd3945724b2ba61411b0969157a11f2011ba76de845b3ca0e4ee" />
+    <dependencies>
+      <dependency title="Text Capture" author="Eric Eve" kind="integration" line="248" when="with" status="internal" targets="ext-4a9f443a0cec6999ca3448e9" />
+      <dependency title="Text Capture" author="Eric Eve" kind="integration" line="253" when="without" status="internal" targets="ext-4a9f443a0cec6999ca3448e9" />
+      <dependency title="If True" author="Zed Lopez" kind="integration" line="422" when="with" status="internal" targets="ext-278d4862d6dc9a94c3f47900" />
+      <dependency title="If True" author="Zed Lopez" kind="integration" line="465" when="with" status="internal" targets="ext-278d4862d6dc9a94c3f47900" />
+      <dependency title="Textile" author="Zed Lopez" kind="integration" line="508" when="without" status="external" />
+      <dependency title="Text Capture" author="Eric Eve" kind="integration" line="538" when="with" status="internal" targets="ext-4a9f443a0cec6999ca3448e9" />
+      <dependency title="Text Capture" author="Eric Eve" kind="integration" line="550" when="without" status="internal" targets="ext-4a9f443a0cec6999ca3448e9" />
+    </dependencies>
+  </extension>
+</catalog>
